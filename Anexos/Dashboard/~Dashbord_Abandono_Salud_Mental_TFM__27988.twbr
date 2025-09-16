@@ -1,0 +1,2992 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20252.25.0514.2217                               -->
+<workbook original-version='18.1' source-build='2025.2.0 (20252.25.0514.2217)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AccessibleZoneTabOrder />
+    <AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <ExplainData_AuthorControls />
+    <ExplainData_NullValueExplanation />
+    <ExternalImageContentForZones />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SingleValuePerNestSorting />
+    <SortTagCleanup />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+    <ZoneBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+    <color-palette custom='true' name='UCM Night - Categorical (10)' type='regular'>
+      <color>#00b4d8</color>
+      <color>#06d6a0</color>
+      <color>#ffd166</color>
+      <color>#e63946</color>
+      <color>#4cc9f0</color>
+      <color>#2ed3b7</color>
+      <color>#f4b942</color>
+      <color>#a4161a</color>
+      <color>#f8f9fa</color>
+      <color>#adb5bd</color>
+    </color-palette>
+    <color-palette custom='true' name='UCM Night - Sequential Blue (7)' type='ordered-sequential'>
+      <color>#1f2d50</color>
+      <color>#23406d</color>
+      <color>#27538a</color>
+      <color>#2b66a7</color>
+      <color>#2f7ac4</color>
+      <color>#33a1dd</color>
+      <color>#00b4d8</color>
+    </color-palette>
+  </preferences>
+  <datasources>
+    <datasource hasconnection='false' inline='true' name='Parameters' version='18.1'>
+      <aliases enabled='yes' />
+      <column caption='p_EscenarioBase' datatype='string' name='[Parámetro 1]' param-domain-type='list' role='measure' type='nominal' value='&quot;A&quot;'>
+        <calculation class='tableau' formula='&quot;A&quot;' />
+        <members>
+          <member value='&quot;A&quot;' />
+          <member value='&quot;B&quot;' />
+        </members>
+      </column>
+    </datasource>
+    <datasource caption='dataset_aggregated_official' inline='true' name='federated.05w6ckd1swa2nq16dyihq0pfiqs3' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='dataset_aggregated_official' name='textscan.1m4r5w918bii3v1aftp1w0a8lsvq'>
+            <connection class='textscan' directory='C:/Users/acbon/Documents/Master Data Science UCM/TFM_2/Dashboard' filename='dataset_aggregated_official.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.1m4r5w918bii3v1aftp1w0a8lsvq' name='dataset_aggregated_official.csv' table='[dataset_aggregated_official#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='es_ES'>
+            <column datatype='string' name='Scenario' ordinal='0' />
+            <column datatype='string' name='Age_group' ordinal='1' />
+            <column datatype='string' name='Gender' ordinal='2' />
+            <column datatype='string' name='Severity_filled' ordinal='3' />
+            <column datatype='string' name='level_4' ordinal='4' />
+            <column datatype='string' name='Dropout' ordinal='5' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[dataset_aggregated_official.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;es&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;€&quot;</attribute>
+              <attribute datatype='string' name='decimal-char'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;es_ES&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='thousands-char'>&quot;.&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Scenario</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Scenario]</local-name>
+            <parent-name>[dataset_aggregated_official.csv]</parent-name>
+            <remote-alias>Scenario</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <object-id>[dataset_aggregated_official.csv_50F79526F221407994B24E4199C82C2B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Age_group</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Age_group]</local-name>
+            <parent-name>[dataset_aggregated_official.csv]</parent-name>
+            <remote-alias>Age_group</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <object-id>[dataset_aggregated_official.csv_50F79526F221407994B24E4199C82C2B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Gender</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Gender]</local-name>
+            <parent-name>[dataset_aggregated_official.csv]</parent-name>
+            <remote-alias>Gender</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <object-id>[dataset_aggregated_official.csv_50F79526F221407994B24E4199C82C2B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Severity_filled</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Severity_filled]</local-name>
+            <parent-name>[dataset_aggregated_official.csv]</parent-name>
+            <remote-alias>Severity_filled</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <object-id>[dataset_aggregated_official.csv_50F79526F221407994B24E4199C82C2B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>level_4</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[level_4]</local-name>
+            <parent-name>[dataset_aggregated_official.csv]</parent-name>
+            <remote-alias>level_4</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <object-id>[dataset_aggregated_official.csv_50F79526F221407994B24E4199C82C2B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Dropout</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Dropout]</local-name>
+            <parent-name>[dataset_aggregated_official.csv]</parent-name>
+            <remote-alias>Dropout</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <object-id>[dataset_aggregated_official.csv_50F79526F221407994B24E4199C82C2B]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[:Measure Names]' role='dimension' type='nominal'>
+        <aliases>
+          <alias key='&quot;[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[sum:Calculation_2448832348950728705:qk]&quot;' value='N' />
+          <alias key='&quot;[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[usr:Calculation_1738389508147326976:qk]&quot;' value='Tasa' />
+          <alias key='&quot;[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[usr:Calculation_1738389508159815684:qk]&quot;' value='IC inf.' />
+          <alias key='&quot;[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[usr:Calculation_1738389508159885317:qk]&quot;' value='IC sup.' />
+        </aliases>
+      </column>
+      <column caption='Rango de edad' datatype='string' name='[Age_group]' role='dimension' type='nominal' />
+      <column aggregation='Avg' caption='Mean_dropout_official' datatype='real' default-format='p0.0%' name='[Calculation_154811288495403008]' role='measure' type='quantitative' visual-totals='Avg'>
+        <calculation class='tableau' formula='{ FIXED [Age_group] :&#13;&#10;    AVG(&#13;&#10;      IF LOWER(TRIM([level_4])) = &quot;mean_dropout&quot;&#13;&#10;      THEN FLOAT([Dropout]) / 100&#13;&#10;      END&#13;&#10;    )&#13;&#10;}' />
+      </column>
+      <column caption='CI_low_official' datatype='real' name='[Calculation_154811288495460353]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='SUM(&#13;&#10;  IF LOWER(TRIM([level_4])) = &quot;ci_low&quot;&#13;&#10;  THEN FLOAT([Dropout]) END&#13;&#10;)' />
+      </column>
+      <column caption='CI_high_official' datatype='real' name='[Calculation_154811288495562754]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='SUM(&#13;&#10;  IF LOWER(TRIM([level_4])) = &quot;ci_high&quot;&#13;&#10;  THEN FLOAT([Dropout]) END&#13;&#10;)' />
+      </column>
+      <column caption='n_official' datatype='real' name='[Calculation_154811288495652867]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='SUM(&#13;&#10;  IF LOWER(TRIM([level_4])) = &quot;n&quot;&#13;&#10;  THEN FLOAT([Dropout]) END&#13;&#10;)' />
+      </column>
+      <column caption='Dropout_Base_KPI' datatype='real' default-format='p0.0%' name='[Calculation_154811288504799237]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='{ FIXED [Age_group], [Gender], [Severity_filled] :&#13;&#10;    AVG( IIF([Calculation_154811288510271499] AND [Scenario] = [Parameters].[Parámetro 1],&#13;&#10;             FLOAT([Dropout]),&#13;&#10;             NULL ) )&#13;&#10;}' />
+      </column>
+      <column caption='Dropout_MejorEstrategia_KPI' datatype='real' name='[Calculation_154811288506687494]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='{ FIXED [Age_group], [Gender], [Severity_filled] :&#13;&#10;    MIN( IIF( [Calculation_154811288510271499] AND [Scenario] &lt;&gt; [Parameters].[Parámetro 1],&#13;&#10;              FLOAT([Dropout]), NULL ) )&#13;&#10;}' />
+      </column>
+      <column caption='IsMean' datatype='boolean' name='[Calculation_154811288510271499]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='LOWER(TRIM([level_4])) = &quot;mean_dropout&quot;' />
+      </column>
+      <column caption='Reduccion_vs_Base_KPI' datatype='real' default-format='p0.0%' name='[Calculation_154811288511459341]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='IF ISNULL([Calculation_154811288504799237]) OR ISNULL([Calculation_2448832348974374920]) THEN &#13;&#10;    NULL&#13;&#10;ELSE&#13;&#10;    ([Calculation_154811288504799237] - [Calculation_2448832348974374920]) / 100&#13;&#10;END' />
+      </column>
+      <column caption='Tasa_Abandono_%' datatype='real' default-format='p0.0%' name='[Calculation_1738389508147326976]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='IF SUM([Calculation_2448832348951191554]) = 0 THEN NULL&#13;&#10;ELSE (SUM([Calculation_2448832348950728705] * [Calculation_2448832348951191554]) / SUM([Calculation_2448832348951191554])) / 100&#13;&#10;END' />
+      </column>
+      <column caption='Dropouts_cnt' datatype='real' name='[Calculation_1738389508151132161]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='([Calculation_2448832348950728705] / 100) * [Calculation_2448832348951191554]' />
+      </column>
+      <column caption='Pct_Dropouts_byAge_Severity' datatype='real' name='[Calculation_1738389508151300098]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='SUM([Calculation_1738389508151132161]) / WINDOW_SUM(SUM([Calculation_1738389508151132161]))'>
+          <table-calc ordering-type='Rows' />
+        </calculation>
+      </column>
+      <column caption='IC_Inf' datatype='real' default-format='p0.0%' name='[Calculation_1738389508159815684]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[Calculation_2448832348953735174] / 100' />
+      </column>
+      <column caption='IC_Sup' datatype='real' default-format='p0.0%' name='[Calculation_1738389508159885317]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[Calculation_2448832348953841671] / 100' />
+      </column>
+      <column caption='CI_Rango_%' datatype='real' name='[Calculation_1738389508164268038]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[Calculation_2448832348981383178] / 100' />
+      </column>
+      <column caption='Half_CI' datatype='real' name='[Calculation_1738389508164349959]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[Calculation_1738389508164268038] / 2' />
+      </column>
+      <column caption='Tasa_Base' datatype='real' name='[Calculation_1738389508229644296]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='IF SUM(IIF([Scenario]=[Parameters].[Parámetro 1], [Calculation_2448832348951191554], 0)) = 0 THEN NULL&#13;&#10;ELSE SUM(IIF([Scenario]=[Parameters].[Parámetro 1], [Calculation_2448832348950728705]*[Calculation_2448832348951191554], 0))&#13;&#10;     / SUM(IIF([Scenario]=[Parameters].[Parámetro 1], [Calculation_2448832348951191554], 0)) / 100&#13;&#10;END' />
+      </column>
+      <column caption='Tasa_Alt' datatype='real' name='[Calculation_1738389508229722121]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='IF SUM(IIF([Scenario]&lt;&gt;[Parameters].[Parámetro 1], [Calculation_2448832348951191554], 0)) = 0 THEN NULL&#13;&#10;ELSE SUM(IIF([Scenario]&lt;&gt;[Parameters].[Parámetro 1], [Calculation_2448832348950728705]*[Calculation_2448832348951191554], 0))&#13;&#10;     / SUM(IIF([Scenario]&lt;&gt;[Parameters].[Parámetro 1], [Calculation_2448832348951191554], 0)) / 100&#13;&#10;END' />
+      </column>
+      <column caption='Δ_abs_pp' datatype='real' name='[Calculation_1738389508229820426]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='([Calculation_1738389508229722121] - [Calculation_1738389508229644296]) * 100' />
+      </column>
+      <column caption='Δ_rel_pct' datatype='real' name='[Calculation_1738389508230008843]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='([Calculation_1738389508229644296] - [Calculation_1738389508229722121]) / [Calculation_1738389508229644296]' />
+      </column>
+      <column caption='IC_Inf_row' datatype='real' name='[Calculation_1738389508236578829]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[Calculation_2448832348953735174] / 100' />
+      </column>
+      <column caption='IC_Sup_row' datatype='real' name='[Calculation_1738389508236734478]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[Calculation_2448832348953841671] / 100' />
+      </column>
+      <column aggregation='Avg' caption='Tasa_Abandono_%_fila' datatype='real' default-format='p0.0%' name='[Calculation_2306406011414962177]' role='measure' type='quantitative' visual-totals='Avg'>
+        <calculation class='tableau' formula='IF [Calculation_2448832348951191554] = 0 THEN NULL&#13;&#10;ELSE ([Calculation_2448832348950728705] * [Calculation_2448832348951191554]) / [Calculation_2448832348951191554] / 100&#13;&#10;END' />
+      </column>
+      <column caption='IsN' datatype='boolean' name='[Calculation_2448832348950544384]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='LOWER(TRIM([level_4])) = &quot;n&quot;' />
+      </column>
+      <column caption='Mean_at_grain' datatype='real' name='[Calculation_2448832348950728705]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='{ FIXED [Scenario], [Age_group], [Gender], [Severity_filled] :&#13;&#10;    AVG( IIF([Calculation_154811288510271499], FLOAT([Dropout]), NULL) )&#13;&#10;}' />
+      </column>
+      <column caption='N_at_grain' datatype='real' default-format='N' name='[Calculation_2448832348951191554]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='{ FIXED [Scenario], [Age_group], [Gender], [Severity_filled] :&#13;&#10;    AVG( IIF([Calculation_2448832348950544384], FLOAT([Dropout]), NULL) )&#13;&#10;}' />
+      </column>
+      <column caption='Dropout_Ponderado_0-100' datatype='real' default-format='p0.0%' name='[Calculation_2448832348951519235]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='IF SUM([Calculation_2448832348951191554]) = 0 THEN NULL&#13;&#10;ELSE SUM([Calculation_2448832348950728705] * [Calculation_2448832348951191554]) / SUM([Calculation_2448832348951191554])&#13;&#10;END' />
+      </column>
+      <column caption='CI_low_at_grain' datatype='real' name='[Calculation_2448832348951941124]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='{ FIXED [Scenario], [Age_group], [Gender], [Severity_filled] :&#13;&#10;    AVG( IIF(LOWER(TRIM([level_4]))=&quot;ci_low&quot;, FLOAT([Dropout]), NULL) )&#13;&#10;}' />
+      </column>
+      <column caption='CI_high_at_grain' datatype='real' name='[Calculation_2448832348952350725]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='{ FIXED [Scenario], [Age_group], [Gender], [Severity_filled] :&#13;&#10;    AVG( IIF(LOWER(TRIM([level_4]))=&quot;ci_high&quot;, FLOAT([Dropout]), NULL) )&#13;&#10;}' />
+      </column>
+      <column caption='CI_low_Ponderado' datatype='real' default-format='p0.0%' name='[Calculation_2448832348953735174]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='IF SUM([Calculation_2448832348951191554]) = 0 THEN NULL&#13;&#10;ELSE SUM([Calculation_2448832348951941124]*[Calculation_2448832348951191554]) / SUM([Calculation_2448832348951191554])&#13;&#10;END' />
+      </column>
+      <column caption='CI_high_Ponderado' datatype='real' default-format='p0.0%' name='[Calculation_2448832348953841671]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='IF SUM([Calculation_2448832348951191554]) = 0 THEN NULL&#13;&#10;ELSE SUM([Calculation_2448832348952350725]*[Calculation_2448832348951191554]) / SUM([Calculation_2448832348951191554])&#13;&#10;END' />
+      </column>
+      <column caption='Dropout_Alternativo_KPI' datatype='real' name='[Calculation_2448832348974374920]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='{ FIXED [Age_group], [Gender], [Severity_filled] :&#13;&#10;    AVG( IIF([Calculation_154811288510271499] AND [Scenario] &lt;&gt; [Parameters].[Parámetro 1],&#13;&#10;             FLOAT([Dropout]),&#13;&#10;             NULL ) )&#13;&#10;}' />
+      </column>
+      <column caption='CI_Rango' datatype='real' default-format='n#,##0.0;-#,##0.0' name='[Calculation_2448832348981383178]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[Calculation_2448832348953841671] - [Calculation_2448832348953735174]' />
+      </column>
+      <column caption='Color_Abandono_Global' datatype='string' name='[Calculation_2448832348993282061]' role='measure' type='nominal'>
+        <calculation class='tableau' formula='IF [Calculation_2448832349006045201] &gt; 0.30 THEN &quot;Rojo&quot;&#13;&#10;ELSEIF [Calculation_2448832349006045201] &gt;= 0.20 THEN &quot;Amarillo&quot;&#13;&#10;ELSE &quot;Verde&quot;&#13;&#10;END' />
+      </column>
+      <column caption='Abandono_Global_pct' datatype='real' default-format='p0.0%' name='[Calculation_2448832349006045201]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='// Media ponderada y normalización a proporción 0–1&#13;&#10;IF SUM([Calculation_2448832348951191554]) = 0 THEN NULL&#13;&#10;ELSE&#13;&#10;    // media ponderada en las unidades originales&#13;&#10;    (SUM([Calculation_2448832348950728705] * [Calculation_2448832348951191554]) / SUM([Calculation_2448832348951191554]))&#13;&#10;    // si viene en 0–100 la divido entre 100; si ya está en 0–1 la dejo como está&#13;&#10;    / IIF((SUM([Calculation_2448832348950728705] * [Calculation_2448832348951191554]) / SUM([Calculation_2448832348951191554])) &gt; 1, 100, 1)&#13;&#10;END' />
+      </column>
+      <column caption='Retencion_Global_pct' datatype='real' default-format='p0.0%' name='[Calculation_2448832349006622738]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='IF ISNULL([Calculation_2448832349006045201]) THEN NULL&#13;&#10;ELSE 1 - [Calculation_2448832349006045201]&#13;&#10;END' />
+      </column>
+      <column caption='Color_Retencion_Global' datatype='string' name='[Calculation_2448832349008691219]' role='measure' type='nominal'>
+        <calculation class='tableau' formula='IF [Calculation_2448832349006622738] &lt; 0.60 THEN &quot;Rojo&quot;&#13;&#10;ELSEIF [Calculation_2448832349006622738] &lt; 0.80 THEN &quot;Amarillo&quot;&#13;&#10;ELSE &quot;Verde&quot;&#13;&#10;END' />
+      </column>
+      <column caption='Color_Reduccion' datatype='string' name='[Calculation_2448832349015654420]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='IF ISNULL([Calculation_154811288511459341]) THEN &quot;s/d&quot;&#13;&#10;ELSEIF [Calculation_154811288511459341] &gt;= 0.05 THEN &quot;Mejora alta&quot;     // ≥5 pp&#13;&#10;ELSEIF [Calculation_154811288511459341] &gt; 0 THEN &quot;Mejora&quot;&#13;&#10;ELSEIF [Calculation_154811288511459341] = 0 THEN &quot;Igual&quot;&#13;&#10;ELSE &quot;Peor&quot;&#13;&#10;END' />
+      </column>
+      <column caption='Género' datatype='string' name='[Gender]' role='dimension' type='nominal'>
+        <aliases>
+          <alias key='&quot;Female&quot;' value='Femenino' />
+          <alias key='&quot;Male&quot;' value='Masculino ' />
+          <alias key='&quot;Non-binary&quot;' value='No Binario' />
+          <alias key='&quot;Prefer not to say&quot;' value='Prefiere no decirlo' />
+        </aliases>
+      </column>
+      <column caption='Escenario' datatype='string' name='[Scenario]' role='dimension' type='nominal' />
+      <column caption='Severidad clínica' datatype='string' name='[Severity_filled]' role='dimension' type='nominal'>
+        <aliases>
+          <alias key='&quot;High&quot;' value='Alta' />
+          <alias key='&quot;Low&quot;' value='Baja' />
+          <alias key='&quot;Medium&quot;' value='Media' />
+          <alias key='&quot;Unknown&quot;' value='Desconocida' />
+        </aliases>
+      </column>
+      <column caption='dataset_aggregated_official.csv' datatype='table' name='[__tableau_internal_object_id__].[dataset_aggregated_official.csv_50F79526F221407994B24E4199C82C2B]' role='measure' type='quantitative' />
+      <column caption='Level 4' datatype='string' name='[level_4]' role='dimension' type='nominal' />
+      <column-instance column='[Calculation_1738389508147326976]' derivation='User' name='[cum:usr:Calculation_1738389508147326976:qk:2]' pivot='key' type='quantitative'>
+        <table-calc aggregation='Sum' ordering-field='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[Age_group]' ordering-type='Field' type='CumTotal' />
+      </column-instance>
+      <column-instance column='[Calculation_1738389508147326976]' derivation='User' name='[cum:usr:Calculation_1738389508147326976:qk]' pivot='key' type='quantitative'>
+        <table-calc aggregation='Sum' ordering-type='Columns' type='CumTotal' />
+      </column-instance>
+      <column-instance column='[Calculation_1738389508147326976]' derivation='User' name='[diff:usr:Calculation_1738389508147326976:qk]' pivot='key' type='quantitative'>
+        <table-calc diff-options='Relative' ordering-type='Rows' type='Difference'>
+          <address>
+            <value>-1</value>
+          </address>
+        </table-calc>
+      </column-instance>
+      <column-instance column='[Age_group]' derivation='None' name='[none:Age_group:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Calculation_2448832349015654420]' derivation='None' name='[none:Calculation_2448832349015654420:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Gender]' derivation='None' name='[none:Gender:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Scenario]' derivation='None' name='[none:Scenario:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Severity_filled]' derivation='None' name='[none:Severity_filled:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Calculation_154811288495652867]' derivation='User' name='[pcto:usr:Calculation_154811288495652867:qk:1]' pivot='key' type='quantitative'>
+        <table-calc ordering-type='Field' type='PctTotal'>
+          <order field='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[none:Age_group:nk]' />
+          <order field='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[none:Severity_filled:nk]' />
+        </table-calc>
+      </column-instance>
+      <column-instance column='[Calculation_154811288495652867]' derivation='User' name='[pcto:usr:Calculation_154811288495652867:qk:2]' pivot='key' type='quantitative'>
+        <table-calc ordering-type='Rows' type='PctTotal' />
+      </column-instance>
+      <column-instance column='[Calculation_2448832348950728705]' derivation='Sum' name='[sum:Calculation_2448832348950728705:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Calculation_154811288495652867]' derivation='User' name='[usr:Calculation_154811288495652867:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Calculation_1738389508147326976]' derivation='User' name='[usr:Calculation_1738389508147326976:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Calculation_1738389508159815684]' derivation='User' name='[usr:Calculation_1738389508159815684:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Calculation_1738389508159885317]' derivation='User' name='[usr:Calculation_1738389508159885317:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Calculation_2448832348993282061]' derivation='User' name='[usr:Calculation_2448832348993282061:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Calculation_2448832349008691219]' derivation='User' name='[usr:Calculation_2448832349008691219:nk]' pivot='key' type='nominal' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='es_ES' class='hyper' dbname='C:/Users/acbon/AppData/Local/Temp/TableauTemp/#TableauTemp_1tie57o06bg6ji14itcrx1yjd8vk.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='09/10/2025 09:41:37 PM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Scenario</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Scenario]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Scenario</remote-alias>
+              <ordinal>0</ordinal>
+              <family>dataset_aggregated_official.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <object-id>[dataset_aggregated_official.csv_50F79526F221407994B24E4199C82C2B]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Age_group</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Age_group]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Age_group</remote-alias>
+              <ordinal>1</ordinal>
+              <family>dataset_aggregated_official.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <object-id>[dataset_aggregated_official.csv_50F79526F221407994B24E4199C82C2B]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Gender</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Gender]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Gender</remote-alias>
+              <ordinal>2</ordinal>
+              <family>dataset_aggregated_official.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <object-id>[dataset_aggregated_official.csv_50F79526F221407994B24E4199C82C2B]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Severity_filled</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Severity_filled]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Severity_filled</remote-alias>
+              <ordinal>3</ordinal>
+              <family>dataset_aggregated_official.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <object-id>[dataset_aggregated_official.csv_50F79526F221407994B24E4199C82C2B]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>level_4</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[level_4]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>level_4</remote-alias>
+              <ordinal>4</ordinal>
+              <family>dataset_aggregated_official.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <object-id>[dataset_aggregated_official.csv_50F79526F221407994B24E4199C82C2B]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Dropout</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Dropout]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Dropout</remote-alias>
+              <ordinal>5</ordinal>
+              <family>dataset_aggregated_official.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>312</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <object-id>[dataset_aggregated_official.csv_50F79526F221407994B24E4199C82C2B]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout common-percentage='0.955414' dim-ordering='alphabetic' measure-ordering='alphabetic' parameter-percentage='0.044586' show-aliased-fields='true' show-structure='true' user-set-layout-v2='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Gender:nk]' type='palette'>
+            <map to='#00b4d8'>
+              <bucket>&quot;Male&quot;</bucket>
+            </map>
+            <map to='#06d6a0'>
+              <bucket>&quot;Non-binary&quot;</bucket>
+            </map>
+            <map to='#adb5bd'>
+              <bucket>&quot;Prefer not to say&quot;</bucket>
+            </map>
+            <map to='#e63946'>
+              <bucket>&quot;Female&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Scenario:nk]' type='palette'>
+            <map to='#00b4d8'>
+              <bucket>&quot;A&quot;</bucket>
+            </map>
+            <map to='#e63946'>
+              <bucket>&quot;B&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[usr:Calculation_2448832348993282061:nk]' type='palette'>
+            <map to='#e15759'>
+              <bucket>&quot;Alto&quot;</bucket>
+            </map>
+            <map to='#e63946'>
+              <bucket>&quot;Amarillo&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[usr:Calculation_2448832349008691219:nk]' type='palette'>
+            <map to='#00b4d8'>
+              <bucket>&quot;Amarillo&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Calculation_2448832349015654420:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;Peor&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Mejora&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[:Measure Names]' palette='UCM Night - Categorical (10)' type='palette'>
+            <map to='#00b4d8'>
+              <bucket>&quot;[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[cum:usr:Calculation_1738389508147326976:qk:2]&quot;</bucket>
+            </map>
+            <map to='#00b4d8'>
+              <bucket>&quot;[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[cum:usr:Calculation_1738389508147326976:qk]&quot;</bucket>
+            </map>
+            <map to='#00b4d8'>
+              <bucket>&quot;[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[usr:Calculation_1738389508147326976:qk]&quot;</bucket>
+            </map>
+            <map to='#06d6a0'>
+              <bucket>&quot;[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[pcto:usr:Calculation_154811288495652867:qk:1]&quot;</bucket>
+            </map>
+            <map to='#2ed3b7'>
+              <bucket>&quot;[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[sum:Calculation_2448832348950728705:qk]&quot;</bucket>
+            </map>
+            <map to='#adb5bd'>
+              <bucket>&quot;[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[usr:Calculation_1738389508159815684:qk]&quot;</bucket>
+            </map>
+            <map to='#adb5bd'>
+              <bucket>&quot;[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[usr:Calculation_1738389508159885317:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[diff:usr:Calculation_1738389508147326976:qk]&quot;</bucket>
+            </map>
+            <map to='#ffd166'>
+              <bucket>&quot;[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[pcto:usr:Calculation_154811288495652867:qk:2]&quot;</bucket>
+            </map>
+            <map to='#ffd166'>
+              <bucket>&quot;[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[usr:Calculation_154811288495652867:qk]&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Age_group:nk]' type='palette'>
+            <map to='#00b4d8'>
+              <bucket>&quot;18-29&quot;</bucket>
+            </map>
+            <map to='#2ed3b7'>
+              <bucket>&quot;60+&quot;</bucket>
+            </map>
+            <map to='#a4161a'>
+              <bucket>&quot;45-59&quot;</bucket>
+            </map>
+            <map to='#ffd166'>
+              <bucket>&quot;30-44&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Severity_filled:nk]' type='palette'>
+            <map to='#06d6a0'>
+              <bucket>&quot;Low&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Unknown&quot;</bucket>
+            </map>
+            <map to='#e63946'>
+              <bucket>&quot;High&quot;</bucket>
+            </map>
+            <map to='#f4b942'>
+              <bucket>&quot;Medium&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;España&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <datasource-dependencies datasource='Parameters'>
+        <column caption='p_EscenarioBase' datatype='string' name='[Parámetro 1]' param-domain-type='list' role='measure' type='nominal' value='&quot;A&quot;'>
+          <calculation class='tableau' formula='&quot;A&quot;' />
+        </column>
+      </datasource-dependencies>
+      <object-graph>
+        <objects>
+          <object caption='dataset_aggregated_official.csv' id='dataset_aggregated_official.csv_50F79526F221407994B24E4199C82C2B'>
+            <properties context=''>
+              <relation connection='textscan.1m4r5w918bii3v1aftp1w0a8lsvq' name='dataset_aggregated_official.csv' table='[dataset_aggregated_official#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='es_ES'>
+                  <column datatype='string' name='Scenario' ordinal='0' />
+                  <column datatype='string' name='Age_group' ordinal='1' />
+                  <column datatype='string' name='Gender' ordinal='2' />
+                  <column datatype='string' name='Severity_filled' ordinal='3' />
+                  <column datatype='string' name='level_4' ordinal='4' />
+                  <column datatype='string' name='Dropout' ordinal='5' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <shared-views>
+    <shared-view name='federated.05w6ckd1swa2nq16dyihq0pfiqs3'>
+      <datasources>
+        <datasource caption='dataset_aggregated_official' name='federated.05w6ckd1swa2nq16dyihq0pfiqs3' />
+      </datasources>
+      <datasource-dependencies datasource='federated.05w6ckd1swa2nq16dyihq0pfiqs3'>
+        <column caption='Rango de edad' datatype='string' name='[Age_group]' role='dimension' type='nominal' />
+        <column caption='Género' datatype='string' name='[Gender]' role='dimension' type='nominal'>
+          <aliases>
+            <alias key='&quot;Female&quot;' value='Femenino' />
+            <alias key='&quot;Male&quot;' value='Masculino ' />
+            <alias key='&quot;Non-binary&quot;' value='No Binario' />
+            <alias key='&quot;Prefer not to say&quot;' value='Prefiere no decirlo' />
+          </aliases>
+        </column>
+        <column caption='Severidad clínica' datatype='string' name='[Severity_filled]' role='dimension' type='nominal'>
+          <aliases>
+            <alias key='&quot;High&quot;' value='Alta' />
+            <alias key='&quot;Low&quot;' value='Baja' />
+            <alias key='&quot;Medium&quot;' value='Media' />
+            <alias key='&quot;Unknown&quot;' value='Desconocida' />
+          </aliases>
+        </column>
+        <column-instance column='[Age_group]' derivation='None' name='[none:Age_group:nk]' pivot='key' type='nominal' />
+        <column-instance column='[Gender]' derivation='None' name='[none:Gender:nk]' pivot='key' type='nominal' />
+        <column-instance column='[Severity_filled]' derivation='None' name='[none:Severity_filled:nk]' pivot='key' type='nominal' />
+      </datasource-dependencies>
+      <filter class='categorical' column='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[none:Age_group:nk]'>
+        <groupfilter function='level-members' level='[none:Age_group:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+      </filter>
+      <filter class='categorical' column='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[none:Gender:nk]'>
+        <groupfilter function='level-members' level='[none:Gender:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+      </filter>
+      <filter class='categorical' column='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[none:Severity_filled:nk]'>
+        <groupfilter function='level-members' level='[none:Severity_filled:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+      </filter>
+    </shared-view>
+  </shared-views>
+  <actions>
+    <action caption='Resaltado 1 (generado)' name='[Action1_4E992584E6C34D35BD6506F4C840ECE0]'>
+      <activation auto-clear='true' type='on-select' />
+      <source type='sheet' worksheet='KPI_Abandono_Global.' />
+      <command command='tsc:brush'>
+        <param name='field-captions' value='AGR(Color_Abandono_Global)' />
+        <param name='target' value='KPI_Abandono_Global.' />
+      </command>
+    </action>
+    <action caption='Resaltado 2 (generado)' name='[Action2_D7E145A9B6814C3CB35AAFE607190BBF]'>
+      <activation auto-clear='true' type='on-select' />
+      <source type='sheet' worksheet='Resumen A/B (tabla)' />
+      <command command='tsc:brush'>
+        <param name='field-captions' value='Nombres de medidas' />
+        <param name='target' value='Resumen A/B (tabla)' />
+      </command>
+    </action>
+  </actions>
+  <worksheets>
+    <worksheet name='Abandono por Edad '>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontcolor='#ffffff' fontname='Segoe UI Semibold' fontsize='11'>Distribución por edad (%)</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='dataset_aggregated_official' name='federated.05w6ckd1swa2nq16dyihq0pfiqs3' />
+          </datasources>
+          <datasource-dependencies datasource='federated.05w6ckd1swa2nq16dyihq0pfiqs3'>
+            <column caption='Rango de edad' datatype='string' name='[Age_group]' role='dimension' type='nominal' />
+            <column caption='IsMean' datatype='boolean' name='[Calculation_154811288510271499]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='LOWER(TRIM([level_4])) = &quot;mean_dropout&quot;' />
+            </column>
+            <column caption='Tasa_Abandono_%' datatype='real' default-format='p0.0%' name='[Calculation_1738389508147326976]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF SUM([Calculation_2448832348951191554]) = 0 THEN NULL&#13;&#10;ELSE (SUM([Calculation_2448832348950728705] * [Calculation_2448832348951191554]) / SUM([Calculation_2448832348951191554])) / 100&#13;&#10;END' />
+            </column>
+            <column caption='Dropouts_cnt' datatype='real' name='[Calculation_1738389508151132161]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='([Calculation_2448832348950728705] / 100) * [Calculation_2448832348951191554]' />
+            </column>
+            <column caption='Pct_Dropouts_byAge_Severity' datatype='real' name='[Calculation_1738389508151300098]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='SUM([Calculation_1738389508151132161]) / WINDOW_SUM(SUM([Calculation_1738389508151132161]))'>
+                <table-calc ordering-type='Rows' />
+              </calculation>
+            </column>
+            <column caption='IC_Inf' datatype='real' default-format='p0.0%' name='[Calculation_1738389508159815684]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[Calculation_2448832348953735174] / 100' />
+            </column>
+            <column caption='IC_Sup' datatype='real' default-format='p0.0%' name='[Calculation_1738389508159885317]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[Calculation_2448832348953841671] / 100' />
+            </column>
+            <column caption='IsN' datatype='boolean' name='[Calculation_2448832348950544384]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='LOWER(TRIM([level_4])) = &quot;n&quot;' />
+            </column>
+            <column caption='Mean_at_grain' datatype='real' name='[Calculation_2448832348950728705]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='{ FIXED [Scenario], [Age_group], [Gender], [Severity_filled] :&#13;&#10;    AVG( IIF([Calculation_154811288510271499], FLOAT([Dropout]), NULL) )&#13;&#10;}' />
+            </column>
+            <column caption='N_at_grain' datatype='real' default-format='N' name='[Calculation_2448832348951191554]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='{ FIXED [Scenario], [Age_group], [Gender], [Severity_filled] :&#13;&#10;    AVG( IIF([Calculation_2448832348950544384], FLOAT([Dropout]), NULL) )&#13;&#10;}' />
+            </column>
+            <column caption='CI_low_at_grain' datatype='real' name='[Calculation_2448832348951941124]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='{ FIXED [Scenario], [Age_group], [Gender], [Severity_filled] :&#13;&#10;    AVG( IIF(LOWER(TRIM([level_4]))=&quot;ci_low&quot;, FLOAT([Dropout]), NULL) )&#13;&#10;}' />
+            </column>
+            <column caption='CI_high_at_grain' datatype='real' name='[Calculation_2448832348952350725]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='{ FIXED [Scenario], [Age_group], [Gender], [Severity_filled] :&#13;&#10;    AVG( IIF(LOWER(TRIM([level_4]))=&quot;ci_high&quot;, FLOAT([Dropout]), NULL) )&#13;&#10;}' />
+            </column>
+            <column caption='CI_low_Ponderado' datatype='real' default-format='p0.0%' name='[Calculation_2448832348953735174]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF SUM([Calculation_2448832348951191554]) = 0 THEN NULL&#13;&#10;ELSE SUM([Calculation_2448832348951941124]*[Calculation_2448832348951191554]) / SUM([Calculation_2448832348951191554])&#13;&#10;END' />
+            </column>
+            <column caption='CI_high_Ponderado' datatype='real' default-format='p0.0%' name='[Calculation_2448832348953841671]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF SUM([Calculation_2448832348951191554]) = 0 THEN NULL&#13;&#10;ELSE SUM([Calculation_2448832348952350725]*[Calculation_2448832348951191554]) / SUM([Calculation_2448832348951191554])&#13;&#10;END' />
+            </column>
+            <column datatype='string' name='[Dropout]' role='dimension' type='nominal' />
+            <column caption='Género' datatype='string' name='[Gender]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;Female&quot;' value='Femenino' />
+                <alias key='&quot;Male&quot;' value='Masculino ' />
+                <alias key='&quot;Non-binary&quot;' value='No Binario' />
+                <alias key='&quot;Prefer not to say&quot;' value='Prefiere no decirlo' />
+              </aliases>
+            </column>
+            <column caption='Escenario' datatype='string' name='[Scenario]' role='dimension' type='nominal' />
+            <column caption='Severidad clínica' datatype='string' name='[Severity_filled]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;High&quot;' value='Alta' />
+                <alias key='&quot;Low&quot;' value='Baja' />
+                <alias key='&quot;Medium&quot;' value='Media' />
+                <alias key='&quot;Unknown&quot;' value='Desconocida' />
+              </aliases>
+            </column>
+            <column caption='Level 4' datatype='string' name='[level_4]' role='dimension' type='nominal' />
+            <column-instance column='[Age_group]' derivation='None' name='[none:Age_group:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Gender]' derivation='None' name='[none:Gender:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Scenario]' derivation='None' name='[none:Scenario:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Severity_filled]' derivation='None' name='[none:Severity_filled:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_2448832348951191554]' derivation='Sum' name='[sum:Calculation_2448832348951191554:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1738389508147326976]' derivation='User' name='[usr:Calculation_1738389508147326976:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1738389508151300098]' derivation='User' name='[usr:Calculation_1738389508151300098:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' />
+            </column-instance>
+            <column-instance column='[Calculation_1738389508159815684]' derivation='User' name='[usr:Calculation_1738389508159815684:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1738389508159885317]' derivation='User' name='[usr:Calculation_1738389508159885317:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[none:Scenario:nk]' filter-group='3'>
+            <groupfilter function='level-members' level='[none:Scenario:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[none:Scenario:nk]</column>
+            <column>[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[none:Gender:nk]</column>
+            <column>[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[none:Severity_filled:nk]</column>
+            <column>[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[none:Age_group:nk]</column>
+          </slices>
+          <aggregation value='false' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[usr:Calculation_1738389508151300098:qk]' scope='rows' value='' />
+            <format attr='stroke-size' value='0' />
+            <format attr='tick-color' value='#00000000' />
+            <format attr='width' field='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[usr:Calculation_1738389508151300098:qk]' value='91' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[usr:Calculation_1738389508147326976:qk]' value='n#,##0.0;-#,##0.0' />
+            <format attr='width' field='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[none:Age_group:nk]' value='48' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='background-color' field='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[none:Age_group:nk]' value='#14213d' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='color' field='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[none:Scenario:nk]' value='#ffffff' />
+            <format attr='color' field='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[none:Age_group:nk]' value='#ffffff' />
+            <format attr='color' field='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[usr:Calculation_1738389508151300098:qk]' value='#ffffff' />
+            <format attr='text-format' field='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[usr:Calculation_1738389508151300098:qk]' value='p0.0%' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#14213d' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='dropline'>
+            <format attr='line-pattern-only' value='solid' />
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='fill-above' id='refline0' value='#00000000' />
+            <format attr='fill-below' id='refline0' value='#00000000' />
+            <format attr='stroke-color' id='refline0' value='#ffffff4b' />
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' value='0' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='table-div'>
+            <format attr='stroke-color' scope='cols' value='#ffffff' />
+          </style-rule>
+          <style-rule element='quick-filter'>
+            <format attr='title' field='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[none:Scenario:nk]' value='Escenario '>
+              <formatted-text>
+                <run fontalignment='1' fontcolor='#ffffff' fontname='Segoe UI Semibold'>Escenario </run>
+              </formatted-text>
+            </format>
+            <format attr='title' field='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[none:Severity_filled:nk]' value='Nivel de severidad'>
+              <formatted-text>
+                <run bold='true' fontalignment='1' fontcolor='#ffffff' fontname='Benton Sans Book'>Nivel de severidad</run>
+              </formatted-text>
+            </format>
+            <format attr='title' field='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[none:Gender:nk]' value='Género'>
+              <formatted-text>
+                <run bold='true' fontalignment='1' fontcolor='#ffffff'>Género</run>
+              </formatted-text>
+            </format>
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[none:Age_group:nk]' />
+              <lod column='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[sum:Calculation_2448832348951191554:qk]' />
+              <lod column='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[usr:Calculation_1738389508147326976:qk]' />
+              <lod column='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[usr:Calculation_1738389508159815684:qk]' />
+              <lod column='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[usr:Calculation_1738389508159885317:qk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#000000'><![CDATA[Abandono ponderado (%):	<[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[usr:Calculation_1738389508151300098:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#000000'><![CDATA[Intervalo de confianza inferior (%):	<[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[usr:Calculation_1738389508159815684:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#000000'><![CDATA[Intervalo de confianza superior (%):	<[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[usr:Calculation_1738389508159885317:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#000000' fontname='Benton Sans Book'><![CDATA[N:<[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[sum:Calculation_2448832348951191554:qk]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+              <style-rule element='trendline'>
+                <format attr='stroke-size' value='0' />
+                <format attr='line-visibility' value='off' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[usr:Calculation_1738389508151300098:qk]</rows>
+        <cols>[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[none:Age_group:nk]</cols>
+      </table>
+      <simple-id uuid='{2C0026F2-0B73-4CA0-AF8A-F14344F3B0DB}' />
+    </worksheet>
+    <worksheet name='Abandono por Género'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#ffffff' fontname='Segoe UI Semibold' fontsize='11'>Abandono por género (%)</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='dataset_aggregated_official' name='federated.05w6ckd1swa2nq16dyihq0pfiqs3' />
+          </datasources>
+          <datasource-dependencies datasource='federated.05w6ckd1swa2nq16dyihq0pfiqs3'>
+            <column caption='Rango de edad' datatype='string' name='[Age_group]' role='dimension' type='nominal' />
+            <column caption='IsMean' datatype='boolean' name='[Calculation_154811288510271499]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='LOWER(TRIM([level_4])) = &quot;mean_dropout&quot;' />
+            </column>
+            <column caption='Tasa_Abandono_%' datatype='real' default-format='p0.0%' name='[Calculation_1738389508147326976]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF SUM([Calculation_2448832348951191554]) = 0 THEN NULL&#13;&#10;ELSE (SUM([Calculation_2448832348950728705] * [Calculation_2448832348951191554]) / SUM([Calculation_2448832348951191554])) / 100&#13;&#10;END' />
+            </column>
+            <column caption='IsN' datatype='boolean' name='[Calculation_2448832348950544384]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='LOWER(TRIM([level_4])) = &quot;n&quot;' />
+            </column>
+            <column caption='Mean_at_grain' datatype='real' name='[Calculation_2448832348950728705]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='{ FIXED [Scenario], [Age_group], [Gender], [Severity_filled] :&#13;&#10;    AVG( IIF([Calculation_154811288510271499], FLOAT([Dropout]), NULL) )&#13;&#10;}' />
+            </column>
+            <column caption='N_at_grain' datatype='real' default-format='N' name='[Calculation_2448832348951191554]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='{ FIXED [Scenario], [Age_group], [Gender], [Severity_filled] :&#13;&#10;    AVG( IIF([Calculation_2448832348950544384], FLOAT([Dropout]), NULL) )&#13;&#10;}' />
+            </column>
+            <column caption='CI_low_at_grain' datatype='real' name='[Calculation_2448832348951941124]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='{ FIXED [Scenario], [Age_group], [Gender], [Severity_filled] :&#13;&#10;    AVG( IIF(LOWER(TRIM([level_4]))=&quot;ci_low&quot;, FLOAT([Dropout]), NULL) )&#13;&#10;}' />
+            </column>
+            <column caption='CI_high_at_grain' datatype='real' name='[Calculation_2448832348952350725]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='{ FIXED [Scenario], [Age_group], [Gender], [Severity_filled] :&#13;&#10;    AVG( IIF(LOWER(TRIM([level_4]))=&quot;ci_high&quot;, FLOAT([Dropout]), NULL) )&#13;&#10;}' />
+            </column>
+            <column caption='CI_low_Ponderado' datatype='real' default-format='p0.0%' name='[Calculation_2448832348953735174]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF SUM([Calculation_2448832348951191554]) = 0 THEN NULL&#13;&#10;ELSE SUM([Calculation_2448832348951941124]*[Calculation_2448832348951191554]) / SUM([Calculation_2448832348951191554])&#13;&#10;END' />
+            </column>
+            <column caption='CI_high_Ponderado' datatype='real' default-format='p0.0%' name='[Calculation_2448832348953841671]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF SUM([Calculation_2448832348951191554]) = 0 THEN NULL&#13;&#10;ELSE SUM([Calculation_2448832348952350725]*[Calculation_2448832348951191554]) / SUM([Calculation_2448832348951191554])&#13;&#10;END' />
+            </column>
+            <column datatype='string' name='[Dropout]' role='dimension' type='nominal' />
+            <column caption='Género' datatype='string' name='[Gender]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;Female&quot;' value='Femenino' />
+                <alias key='&quot;Male&quot;' value='Masculino ' />
+                <alias key='&quot;Non-binary&quot;' value='No Binario' />
+                <alias key='&quot;Prefer not to say&quot;' value='Prefiere no decirlo' />
+              </aliases>
+            </column>
+            <column caption='Escenario' datatype='string' name='[Scenario]' role='dimension' type='nominal' />
+            <column caption='Severidad clínica' datatype='string' name='[Severity_filled]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;High&quot;' value='Alta' />
+                <alias key='&quot;Low&quot;' value='Baja' />
+                <alias key='&quot;Medium&quot;' value='Media' />
+                <alias key='&quot;Unknown&quot;' value='Desconocida' />
+              </aliases>
+            </column>
+            <column caption='Level 4' datatype='string' name='[level_4]' role='dimension' type='nominal' />
+            <column-instance column='[Age_group]' derivation='None' name='[none:Age_group:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Gender]' derivation='None' name='[none:Gender:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Scenario]' derivation='None' name='[none:Scenario:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Severity_filled]' derivation='None' name='[none:Severity_filled:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_2448832348951191554]' derivation='Sum' name='[sum:Calculation_2448832348951191554:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1738389508147326976]' derivation='User' name='[usr:Calculation_1738389508147326976:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_2448832348953735174]' derivation='User' name='[usr:Calculation_2448832348953735174:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_2448832348953841671]' derivation='User' name='[usr:Calculation_2448832348953841671:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[none:Scenario:nk]' filter-group='3'>
+            <groupfilter function='level-members' level='[none:Scenario:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[none:Scenario:nk]</column>
+            <column>[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[none:Gender:nk]</column>
+            <column>[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[none:Severity_filled:nk]</column>
+            <column>[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[none:Age_group:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+            <format attr='tick-color' value='#00000000' />
+            <format attr='title' class='0' field='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[usr:Calculation_1738389508147326976:qk]' scope='cols' value='Tasa de abandono (IC95%)' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='background-color' field='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[none:Gender:nk]' value='#14213d' />
+            <format attr='height-header' value='17' />
+          </style-rule>
+          <style-rule element='field-labels'>
+            <format attr='color' value='#ffffff' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='color' field='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[none:Gender:nk]' value='#ffffff' />
+            <format attr='color' field='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[usr:Calculation_1738389508147326976:qk]' value='#ffffff' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#14213d' />
+          </style-rule>
+          <style-rule element='dropline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' value='0' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='quick-filter'>
+            <format attr='title' field='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[none:Scenario:nk]' value='Escenario'>
+              <formatted-text>
+                <run bold='true' fontalignment='1' fontcolor='#ffffff'>Escenario</run>
+              </formatted-text>
+            </format>
+            <format attr='title' field='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[none:Age_group:nk]' value='Rango de Edad'>
+              <formatted-text>
+                <run fontalignment='1' fontcolor='#ffffff' fontname='Segoe UI Semibold'>Rango de Edad</run>
+              </formatted-text>
+            </format>
+            <format attr='title' field='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[none:Gender:nk]' value='Género'>
+              <formatted-text>
+                <run bold='true' fontalignment='1' fontcolor='#ffffff' fontname='Segoe UI Semibold'>Género</run>
+              </formatted-text>
+            </format>
+            <format attr='title' field='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[none:Severity_filled:nk]' value='Severidad clínica'>
+              <formatted-text>
+                <run bold='true' fontalignment='1' fontcolor='#ffffff' fontname='Segoe UI Semibold'>Severidad clínica</run>
+              </formatted-text>
+            </format>
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <lod column='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[sum:Calculation_2448832348951191554:qk]' />
+              <lod column='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[usr:Calculation_2448832348953735174:qk]' />
+              <lod column='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[usr:Calculation_2448832348953841671:qk]' />
+              <lod column='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[usr:Calculation_1738389508147326976:qk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#000000' fontname='Segoe UI Semilight'>Género:&#9;</run>
+                <run bold='true' fontcolor='#000000' fontname='Segoe UI Semilight'><![CDATA[<[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[none:Gender:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#000000' fontname='Segoe UI Semilight'><![CDATA[Tasa de abandono (%): <[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[usr:Calculation_1738389508147326976:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#000000' fontname='Segoe UI Semilight'><![CDATA[Intervalo de confianza (95%): <[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[usr:Calculation_2448832348953735174:qk]> -  <[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[usr:Calculation_2448832348953841671:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#000000' fontname='Segoe UI Semilight'><![CDATA[N casos: <[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[sum:Calculation_2448832348951191554:qk]>]]></run>
+                <run>Æ&#10;</run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#00b4d8' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[none:Gender:nk]</rows>
+        <cols>[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[usr:Calculation_1738389508147326976:qk]</cols>
+      </table>
+      <simple-id uuid='{5C648382-6A8D-402D-9B1C-6C248C3E8724}' />
+    </worksheet>
+    <worksheet name='Abandono por Severidad'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontcolor='#ffffff' fontname='Segoe UI Semibold' fontsize='11'>Abandono por severidad clínica (%)</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='dataset_aggregated_official' name='federated.05w6ckd1swa2nq16dyihq0pfiqs3' />
+          </datasources>
+          <datasource-dependencies datasource='federated.05w6ckd1swa2nq16dyihq0pfiqs3'>
+            <column caption='Rango de edad' datatype='string' name='[Age_group]' role='dimension' type='nominal' />
+            <column caption='IsMean' datatype='boolean' name='[Calculation_154811288510271499]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='LOWER(TRIM([level_4])) = &quot;mean_dropout&quot;' />
+            </column>
+            <column caption='Tasa_Abandono_%' datatype='real' default-format='p0.0%' name='[Calculation_1738389508147326976]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF SUM([Calculation_2448832348951191554]) = 0 THEN NULL&#13;&#10;ELSE (SUM([Calculation_2448832348950728705] * [Calculation_2448832348951191554]) / SUM([Calculation_2448832348951191554])) / 100&#13;&#10;END' />
+            </column>
+            <column caption='IsN' datatype='boolean' name='[Calculation_2448832348950544384]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='LOWER(TRIM([level_4])) = &quot;n&quot;' />
+            </column>
+            <column caption='Mean_at_grain' datatype='real' name='[Calculation_2448832348950728705]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='{ FIXED [Scenario], [Age_group], [Gender], [Severity_filled] :&#13;&#10;    AVG( IIF([Calculation_154811288510271499], FLOAT([Dropout]), NULL) )&#13;&#10;}' />
+            </column>
+            <column caption='N_at_grain' datatype='real' default-format='N' name='[Calculation_2448832348951191554]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='{ FIXED [Scenario], [Age_group], [Gender], [Severity_filled] :&#13;&#10;    AVG( IIF([Calculation_2448832348950544384], FLOAT([Dropout]), NULL) )&#13;&#10;}' />
+            </column>
+            <column caption='Dropout_Ponderado_0-100' datatype='real' default-format='p0.0%' name='[Calculation_2448832348951519235]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF SUM([Calculation_2448832348951191554]) = 0 THEN NULL&#13;&#10;ELSE SUM([Calculation_2448832348950728705] * [Calculation_2448832348951191554]) / SUM([Calculation_2448832348951191554])&#13;&#10;END' />
+            </column>
+            <column caption='CI_low_at_grain' datatype='real' name='[Calculation_2448832348951941124]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='{ FIXED [Scenario], [Age_group], [Gender], [Severity_filled] :&#13;&#10;    AVG( IIF(LOWER(TRIM([level_4]))=&quot;ci_low&quot;, FLOAT([Dropout]), NULL) )&#13;&#10;}' />
+            </column>
+            <column caption='CI_high_at_grain' datatype='real' name='[Calculation_2448832348952350725]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='{ FIXED [Scenario], [Age_group], [Gender], [Severity_filled] :&#13;&#10;    AVG( IIF(LOWER(TRIM([level_4]))=&quot;ci_high&quot;, FLOAT([Dropout]), NULL) )&#13;&#10;}' />
+            </column>
+            <column caption='CI_low_Ponderado' datatype='real' default-format='p0.0%' name='[Calculation_2448832348953735174]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF SUM([Calculation_2448832348951191554]) = 0 THEN NULL&#13;&#10;ELSE SUM([Calculation_2448832348951941124]*[Calculation_2448832348951191554]) / SUM([Calculation_2448832348951191554])&#13;&#10;END' />
+            </column>
+            <column caption='CI_high_Ponderado' datatype='real' default-format='p0.0%' name='[Calculation_2448832348953841671]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF SUM([Calculation_2448832348951191554]) = 0 THEN NULL&#13;&#10;ELSE SUM([Calculation_2448832348952350725]*[Calculation_2448832348951191554]) / SUM([Calculation_2448832348951191554])&#13;&#10;END' />
+            </column>
+            <column datatype='string' name='[Dropout]' role='dimension' type='nominal' />
+            <column caption='Género' datatype='string' name='[Gender]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;Female&quot;' value='Femenino' />
+                <alias key='&quot;Male&quot;' value='Masculino ' />
+                <alias key='&quot;Non-binary&quot;' value='No Binario' />
+                <alias key='&quot;Prefer not to say&quot;' value='Prefiere no decirlo' />
+              </aliases>
+            </column>
+            <column caption='Escenario' datatype='string' name='[Scenario]' role='dimension' type='nominal' />
+            <column caption='Severidad clínica' datatype='string' name='[Severity_filled]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;High&quot;' value='Alta' />
+                <alias key='&quot;Low&quot;' value='Baja' />
+                <alias key='&quot;Medium&quot;' value='Media' />
+                <alias key='&quot;Unknown&quot;' value='Desconocida' />
+              </aliases>
+            </column>
+            <column caption='Level 4' datatype='string' name='[level_4]' role='dimension' type='nominal' />
+            <column-instance column='[Age_group]' derivation='None' name='[none:Age_group:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Gender]' derivation='None' name='[none:Gender:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Scenario]' derivation='None' name='[none:Scenario:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Severity_filled]' derivation='None' name='[none:Severity_filled:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_2448832348951191554]' derivation='Sum' name='[sum:Calculation_2448832348951191554:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1738389508147326976]' derivation='User' name='[usr:Calculation_1738389508147326976:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_2448832348951519235]' derivation='User' name='[usr:Calculation_2448832348951519235:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_2448832348953735174]' derivation='User' name='[usr:Calculation_2448832348953735174:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_2448832348953841671]' derivation='User' name='[usr:Calculation_2448832348953841671:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[none:Scenario:nk]' filter-group='3'>
+            <groupfilter function='level-members' level='[none:Scenario:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <manual-sort column='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[none:Severity_filled:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;Low&quot;</bucket>
+              <bucket>&quot;Medium&quot;</bucket>
+              <bucket>&quot;High&quot;</bucket>
+              <bucket>&quot;Unknown&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[none:Scenario:nk]</column>
+            <column>[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[none:Gender:nk]</column>
+            <column>[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[none:Severity_filled:nk]</column>
+            <column>[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[none:Age_group:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[usr:Calculation_1738389508147326976:qk]' scope='cols' value='Tasa de abandono (IC95%)' />
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+            <format attr='tick-color' value='#00000000' />
+            <format attr='height' field='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[usr:Calculation_1738389508147326976:qk]' value='30' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[usr:Calculation_2448832348951519235:qk]' value='n#,##0.00;-#,##0.00' />
+            <format attr='height' field='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[none:Severity_filled:nk]' value='44' />
+          </style-rule>
+          <style-rule element='field-labels'>
+            <format attr='color' value='#14213d' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-format' field='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[usr:Calculation_2448832348951519235:qk]' value='p0.0%' />
+            <format attr='color' field='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[none:Severity_filled:nk]' value='#ffffff' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#14213d' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='color' value='#ffffff' />
+          </style-rule>
+          <style-rule element='dropline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' value='0' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='animation'>
+            <format attr='animation-style' value='as-phased' />
+            <format attr='animation-on' value='ao-off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[none:Severity_filled:nk]' />
+              <lod column='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[usr:Calculation_2448832348951519235:qk]' />
+              <lod column='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[usr:Calculation_2448832348953735174:qk]' />
+              <lod column='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[usr:Calculation_2448832348953841671:qk]' />
+              <lod column='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[sum:Calculation_2448832348951191554:qk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run>Severidad clínica: &lt;</run>
+                <run>[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[none:Severity_filled:nk]</run>
+                <run>&gt;: &#10;Tasa de abandono (%): &lt;</run>
+                <run>[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[usr:Calculation_2448832348951519235:qk]</run>
+                <run><![CDATA[>
+Intervalo de confianza (95%): <]]></run>
+                <run>[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[usr:Calculation_2448832348953735174:qk]</run>
+                <run>&gt; – &lt;</run>
+                <run>[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[usr:Calculation_2448832348953841671:qk]</run>
+                <run>&gt;&#10;N casos: &lt;</run>
+                <run>[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[sum:Calculation_2448832348951191554:qk]</run>
+                <run>&gt;&#10;&#10;</run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='size' value='1.626187801361084' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+              </style-rule>
+              <style-rule element='trendline'>
+                <format attr='stroke-size' value='0' />
+                <format attr='line-visibility' value='off' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[none:Severity_filled:nk]</rows>
+        <cols>[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[usr:Calculation_1738389508147326976:qk]</cols>
+      </table>
+      <simple-id uuid='{36837463-162E-4B75-9995-A9AF64FD93DB}' />
+    </worksheet>
+    <worksheet name='Comparación A/B con IC95% '>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='2' fontcolor='#ffffff' fontname='Segoe UI Semibold' fontsize='11'>Comparación A vs B con IC95%</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='dataset_aggregated_official' name='federated.05w6ckd1swa2nq16dyihq0pfiqs3' />
+          </datasources>
+          <datasource-dependencies datasource='federated.05w6ckd1swa2nq16dyihq0pfiqs3'>
+            <column caption='Rango de edad' datatype='string' name='[Age_group]' role='dimension' type='nominal' />
+            <column caption='IsMean' datatype='boolean' name='[Calculation_154811288510271499]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='LOWER(TRIM([level_4])) = &quot;mean_dropout&quot;' />
+            </column>
+            <column caption='Tasa_Abandono_%' datatype='real' default-format='p0.0%' name='[Calculation_1738389508147326976]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF SUM([Calculation_2448832348951191554]) = 0 THEN NULL&#13;&#10;ELSE (SUM([Calculation_2448832348950728705] * [Calculation_2448832348951191554]) / SUM([Calculation_2448832348951191554])) / 100&#13;&#10;END' />
+            </column>
+            <column caption='IC_Inf' datatype='real' default-format='p0.0%' name='[Calculation_1738389508159815684]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[Calculation_2448832348953735174] / 100' />
+            </column>
+            <column caption='IC_Sup' datatype='real' default-format='p0.0%' name='[Calculation_1738389508159885317]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[Calculation_2448832348953841671] / 100' />
+            </column>
+            <column caption='CI_Rango_%' datatype='real' name='[Calculation_1738389508164268038]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[Calculation_2448832348981383178] / 100' />
+            </column>
+            <column caption='IsN' datatype='boolean' name='[Calculation_2448832348950544384]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='LOWER(TRIM([level_4])) = &quot;n&quot;' />
+            </column>
+            <column caption='Mean_at_grain' datatype='real' name='[Calculation_2448832348950728705]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='{ FIXED [Scenario], [Age_group], [Gender], [Severity_filled] :&#13;&#10;    AVG( IIF([Calculation_154811288510271499], FLOAT([Dropout]), NULL) )&#13;&#10;}' />
+            </column>
+            <column caption='N_at_grain' datatype='real' default-format='N' name='[Calculation_2448832348951191554]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='{ FIXED [Scenario], [Age_group], [Gender], [Severity_filled] :&#13;&#10;    AVG( IIF([Calculation_2448832348950544384], FLOAT([Dropout]), NULL) )&#13;&#10;}' />
+            </column>
+            <column caption='CI_low_at_grain' datatype='real' name='[Calculation_2448832348951941124]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='{ FIXED [Scenario], [Age_group], [Gender], [Severity_filled] :&#13;&#10;    AVG( IIF(LOWER(TRIM([level_4]))=&quot;ci_low&quot;, FLOAT([Dropout]), NULL) )&#13;&#10;}' />
+            </column>
+            <column caption='CI_high_at_grain' datatype='real' name='[Calculation_2448832348952350725]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='{ FIXED [Scenario], [Age_group], [Gender], [Severity_filled] :&#13;&#10;    AVG( IIF(LOWER(TRIM([level_4]))=&quot;ci_high&quot;, FLOAT([Dropout]), NULL) )&#13;&#10;}' />
+            </column>
+            <column caption='CI_low_Ponderado' datatype='real' default-format='p0.0%' name='[Calculation_2448832348953735174]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF SUM([Calculation_2448832348951191554]) = 0 THEN NULL&#13;&#10;ELSE SUM([Calculation_2448832348951941124]*[Calculation_2448832348951191554]) / SUM([Calculation_2448832348951191554])&#13;&#10;END' />
+            </column>
+            <column caption='CI_high_Ponderado' datatype='real' default-format='p0.0%' name='[Calculation_2448832348953841671]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF SUM([Calculation_2448832348951191554]) = 0 THEN NULL&#13;&#10;ELSE SUM([Calculation_2448832348952350725]*[Calculation_2448832348951191554]) / SUM([Calculation_2448832348951191554])&#13;&#10;END' />
+            </column>
+            <column caption='CI_Rango' datatype='real' default-format='n#,##0.0;-#,##0.0' name='[Calculation_2448832348981383178]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[Calculation_2448832348953841671] - [Calculation_2448832348953735174]' />
+            </column>
+            <column datatype='string' name='[Dropout]' role='dimension' type='nominal' />
+            <column caption='Género' datatype='string' name='[Gender]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;Female&quot;' value='Femenino' />
+                <alias key='&quot;Male&quot;' value='Masculino ' />
+                <alias key='&quot;Non-binary&quot;' value='No Binario' />
+                <alias key='&quot;Prefer not to say&quot;' value='Prefiere no decirlo' />
+              </aliases>
+            </column>
+            <column caption='Escenario' datatype='string' name='[Scenario]' role='dimension' type='nominal' />
+            <column caption='Severidad clínica' datatype='string' name='[Severity_filled]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;High&quot;' value='Alta' />
+                <alias key='&quot;Low&quot;' value='Baja' />
+                <alias key='&quot;Medium&quot;' value='Media' />
+                <alias key='&quot;Unknown&quot;' value='Desconocida' />
+              </aliases>
+            </column>
+            <column caption='Level 4' datatype='string' name='[level_4]' role='dimension' type='nominal' />
+            <column-instance column='[Age_group]' derivation='None' name='[none:Age_group:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Gender]' derivation='None' name='[none:Gender:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Scenario]' derivation='None' name='[none:Scenario:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Severity_filled]' derivation='None' name='[none:Severity_filled:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_2448832348951191554]' derivation='Sum' name='[sum:Calculation_2448832348951191554:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1738389508147326976]' derivation='User' name='[usr:Calculation_1738389508147326976:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1738389508159815684]' derivation='User' name='[usr:Calculation_1738389508159815684:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1738389508159885317]' derivation='User' name='[usr:Calculation_1738389508159885317:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1738389508164268038]' derivation='User' name='[usr:Calculation_1738389508164268038:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[none:Scenario:nk]' filter-group='3'>
+            <groupfilter function='level-members' level='[none:Scenario:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[none:Gender:nk]</column>
+            <column>[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[none:Age_group:nk]</column>
+            <column>[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[none:Severity_filled:nk]</column>
+            <column>[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[none:Scenario:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[usr:Calculation_1738389508159815684:qk]' field-type='quantitative' fold='true' scope='rows' synchronized='true' type='space' />
+            <format attr='display' class='0' field='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[usr:Calculation_1738389508159815684:qk]' scope='rows' value='false' />
+            <format attr='title' class='0' field='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[usr:Calculation_1738389508147326976:qk]' scope='rows' value='Tasa de abandono (IC95%)' />
+            <encoding attr='space' class='0' field='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[usr:Calculation_1738389508147326976:qk]' field-type='quantitative' max='0.40000000000000002' min='0.0' range-type='fixed' scope='rows' type='space' />
+            <format attr='height' field='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[none:Scenario:nk]' value='22' />
+            <format attr='width' field='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[usr:Calculation_1738389508147326976:qk]' value='180' />
+            <format attr='width' field='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[usr:Calculation_1738389508159815684:qk]' value='180' />
+            <format attr='render-fold-reversed' value='true' />
+            <format attr='line-pattern-only' value='solid' />
+            <format attr='stroke-color' value='#ffffff' />
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+            <format attr='tick-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[none:Scenario:nk]' value='135' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='height-header' value='20' />
+            <format attr='border-width' data-class='total' value='0' />
+            <format attr='border-style' data-class='total' value='none' />
+          </style-rule>
+          <style-rule element='field-labels'>
+            <format attr='color' value='#ffffff' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='color' field='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[none:Scenario:nk]' value='#ffffff' />
+            <format attr='color' field='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[usr:Calculation_1738389508147326976:qk]' value='#ffffff' />
+            <format attr='text-format' field='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[usr:Calculation_1738389508164268038:qk]' value='p0%' />
+            <format attr='text-format' field='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[usr:Calculation_1738389508159815684:qk]' value='p0%' />
+            <format attr='text-format' field='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[usr:Calculation_1738389508147326976:qk]' value='p0.0%' />
+            <format attr='text-format' field='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[usr:Calculation_1738389508159885317:qk]' value='p0%' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='border-width' data-class='total' value='0' />
+            <format attr='border-style' data-class='total' value='none' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#14213d' />
+          </style-rule>
+          <style-rule element='dropline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='line-pattern-only' value='solid' />
+            <format attr='stroke-color' value='#ffffff' />
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='table-div'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='9' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <lod column='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[sum:Calculation_2448832348951191554:qk]' />
+              <lod column='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[usr:Calculation_1738389508159815684:qk]' />
+              <lod column='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[usr:Calculation_1738389508159885317:qk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text />
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='size' value='1.4832596778869629' />
+                <format attr='mark-color' value='#654c62' />
+                <format attr='mark-transparency' value='129' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+              <style-rule element='trendline'>
+                <format attr='stroke-size' value='0' />
+                <format attr='line-visibility' value='off' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='10' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[usr:Calculation_1738389508147326976:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[none:Scenario:nk]' />
+              <lod column='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[sum:Calculation_2448832348951191554:qk]' />
+              <lod column='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[usr:Calculation_1738389508159815684:qk]' />
+              <lod column='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[usr:Calculation_1738389508159885317:qk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run bold='true'><![CDATA[Escenario: <[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[none:Scenario:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run bold='true'><![CDATA[Tasa de abandono (media): <[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[usr:Calculation_1738389508147326976:qk]>]]></run>
+                <run><![CDATA[
+IC 95%:
+  Inferior:<[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[usr:Calculation_1738389508159815684:qk]>
+  Superior: <[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[usr:Calculation_1738389508159885317:qk]>
+]]></run>
+                <run bold='true'><![CDATA[N casos: <[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[sum:Calculation_2448832348951191554:qk]>]]></run>
+                <run>Æ&#10;</run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='size' value='2' />
+                <format attr='mark-color' value='#654c62' />
+                <format attr='mark-transparency' value='255' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+              <style-rule element='trendline'>
+                <format attr='stroke-size' value='0' />
+                <format attr='line-visibility' value='off' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='11' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[usr:Calculation_1738389508159815684:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='GanttBar' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <size column='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[usr:Calculation_1738389508164268038:qk]' />
+              <lod column='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[sum:Calculation_2448832348951191554:qk]' />
+              <lod column='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[usr:Calculation_1738389508159815684:qk]' />
+              <lod column='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[usr:Calculation_1738389508159885317:qk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text />
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='size' value='1.4832596778869629' />
+                <format attr='mark-labels-show' value='false' />
+                <format attr='mark-color' value='#adb5bd' />
+                <format attr='mark-transparency' value='88' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+              <style-rule element='trendline'>
+                <format attr='stroke-size' value='0' />
+                <format attr='line-visibility' value='off' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.05w6ckd1swa2nq16dyihq0pfiqs3].[usr:Calculation_1738389508147326976:qk] + [federated.05w6ckd1swa2nq16dyihq0pfiqs3].[usr:Calculation_1738389508159815684:qk])</rows>
+        <cols>[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[none:Scenario:nk]</cols>
+      </table>
+      <simple-id uuid='{57E4BA12-0394-4156-BFF8-56DB281DE45F}' />
+    </worksheet>
+    <worksheet name='Edad – Composición severidad. (2)'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#ffffff' fontname='Segoe UI Semibold' fontsize='11'>Composición de severidad clínica por grupo etario (%)</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='dataset_aggregated_official' name='federated.05w6ckd1swa2nq16dyihq0pfiqs3' />
+          </datasources>
+          <datasource-dependencies datasource='federated.05w6ckd1swa2nq16dyihq0pfiqs3'>
+            <column caption='Rango de edad' datatype='string' name='[Age_group]' role='dimension' type='nominal' />
+            <column caption='n_official' datatype='real' name='[Calculation_154811288495652867]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='SUM(&#13;&#10;  IF LOWER(TRIM([level_4])) = &quot;n&quot;&#13;&#10;  THEN FLOAT([Dropout]) END&#13;&#10;)' />
+            </column>
+            <column datatype='string' name='[Dropout]' role='dimension' type='nominal' />
+            <column caption='Género' datatype='string' name='[Gender]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;Female&quot;' value='Femenino' />
+                <alias key='&quot;Male&quot;' value='Masculino ' />
+                <alias key='&quot;Non-binary&quot;' value='No Binario' />
+                <alias key='&quot;Prefer not to say&quot;' value='Prefiere no decirlo' />
+              </aliases>
+            </column>
+            <column caption='Escenario' datatype='string' name='[Scenario]' role='dimension' type='nominal' />
+            <column caption='Severidad clínica' datatype='string' name='[Severity_filled]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;High&quot;' value='Alta' />
+                <alias key='&quot;Low&quot;' value='Baja' />
+                <alias key='&quot;Medium&quot;' value='Media' />
+                <alias key='&quot;Unknown&quot;' value='Desconocida' />
+              </aliases>
+            </column>
+            <column caption='Level 4' datatype='string' name='[level_4]' role='dimension' type='nominal' />
+            <column-instance column='[Age_group]' derivation='None' name='[none:Age_group:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Gender]' derivation='None' name='[none:Gender:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Scenario]' derivation='None' name='[none:Scenario:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Severity_filled]' derivation='None' name='[none:Severity_filled:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_154811288495652867]' derivation='User' name='[pcto:usr:Calculation_154811288495652867:qk:1]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Field' type='PctTotal'>
+                <order field='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[none:Age_group:nk]' />
+                <order field='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[none:Severity_filled:nk]' />
+              </table-calc>
+            </column-instance>
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[none:Scenario:nk]' filter-group='3'>
+            <groupfilter function='level-members' level='[none:Scenario:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <manual-sort column='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[none:Severity_filled:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;High&quot;</bucket>
+              <bucket>&quot;Low&quot;</bucket>
+              <bucket>&quot;Medium&quot;</bucket>
+              <bucket>&quot;Unknown&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <single-value-per-nest-shelf-sorts>
+            <single-value-per-nest-shelf-sort dimension-to-sort='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[none:Age_group:nk]' direction='ASC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[none:Age_group:nk]' shelf='rows' />
+          </single-value-per-nest-shelf-sorts>
+          <slices>
+            <column>[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[none:Age_group:nk]</column>
+            <column>[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[none:Gender:nk]</column>
+            <column>[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[none:Severity_filled:nk]</column>
+            <column>[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[none:Scenario:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[pcto:usr:Calculation_154811288495652867:qk:1]' value='p0.0%' />
+            <format attr='width' field='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[none:Severity_filled:nk]' value='68' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='band-color' scope='rows' value='#14213d' />
+            <format attr='width' field='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[none:Age_group:nk]' value='96' />
+          </style-rule>
+          <style-rule element='field-labels'>
+            <format attr='color' value='#ffffff' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='color' field='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[none:Age_group:nk]' value='#ffffff' />
+            <format attr='color' field='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[none:Severity_filled:nk]' value='#ffffff' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[pcto:usr:Calculation_154811288495652867:qk:1]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+            <encoding attr='color' field='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[pcto:usr:Calculation_154811288495652867:qk:1]' palette='UCM Night - Sequential Blue (7)' type='interpolated' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='band-color' scope='rows' value='#14213d' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#14213d' />
+            <format attr='band-size' scope='rows' value='1' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Text' />
+            <encodings>
+              <color column='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[none:Severity_filled:nk]' />
+              <text column='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[pcto:usr:Calculation_154811288495652867:qk:1]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#757575' fontname='Segoe UI Light'>Grupo etario:&#9;</run>
+                <run bold='true' fontname='Segoe UI Light'><![CDATA[<[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[none:Age_group:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#757575' fontname='Segoe UI Light'>Severidad:&#9;</run>
+                <run bold='true' fontname='Segoe UI Light'><![CDATA[<[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[none:Severity_filled:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#000000' fontname='Segoe UI Light'>Proporción del total</run>
+                <run fontcolor='#757575' fontname='Segoe UI Light'>:&#9;</run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+                <format attr='has-stroke' value='false' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[none:Age_group:nk]</rows>
+        <cols>[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[none:Severity_filled:nk]</cols>
+      </table>
+      <simple-id uuid='{3FF3E485-CF37-4E98-B59E-FF21999A2980}' />
+    </worksheet>
+    <worksheet name='KPI_Abandono_Global.'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontcolor='#ffffff' fontname='Calibri' fontsize='9'>Abandono Global </run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='dataset_aggregated_official' name='federated.05w6ckd1swa2nq16dyihq0pfiqs3' />
+          </datasources>
+          <datasource-dependencies datasource='federated.05w6ckd1swa2nq16dyihq0pfiqs3'>
+            <column caption='Rango de edad' datatype='string' name='[Age_group]' role='dimension' type='nominal' />
+            <column caption='IsMean' datatype='boolean' name='[Calculation_154811288510271499]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='LOWER(TRIM([level_4])) = &quot;mean_dropout&quot;' />
+            </column>
+            <column caption='IsN' datatype='boolean' name='[Calculation_2448832348950544384]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='LOWER(TRIM([level_4])) = &quot;n&quot;' />
+            </column>
+            <column caption='Mean_at_grain' datatype='real' name='[Calculation_2448832348950728705]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='{ FIXED [Scenario], [Age_group], [Gender], [Severity_filled] :&#13;&#10;    AVG( IIF([Calculation_154811288510271499], FLOAT([Dropout]), NULL) )&#13;&#10;}' />
+            </column>
+            <column caption='N_at_grain' datatype='real' default-format='N' name='[Calculation_2448832348951191554]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='{ FIXED [Scenario], [Age_group], [Gender], [Severity_filled] :&#13;&#10;    AVG( IIF([Calculation_2448832348950544384], FLOAT([Dropout]), NULL) )&#13;&#10;}' />
+            </column>
+            <column caption='Color_Abandono_Global' datatype='string' name='[Calculation_2448832348993282061]' role='measure' type='nominal'>
+              <calculation class='tableau' formula='IF [Calculation_2448832349006045201] &gt; 0.30 THEN &quot;Rojo&quot;&#13;&#10;ELSEIF [Calculation_2448832349006045201] &gt;= 0.20 THEN &quot;Amarillo&quot;&#13;&#10;ELSE &quot;Verde&quot;&#13;&#10;END' />
+            </column>
+            <column caption='Abandono_Global_pct' datatype='real' default-format='p0.0%' name='[Calculation_2448832349006045201]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='// Media ponderada y normalización a proporción 0–1&#13;&#10;IF SUM([Calculation_2448832348951191554]) = 0 THEN NULL&#13;&#10;ELSE&#13;&#10;    // media ponderada en las unidades originales&#13;&#10;    (SUM([Calculation_2448832348950728705] * [Calculation_2448832348951191554]) / SUM([Calculation_2448832348951191554]))&#13;&#10;    // si viene en 0–100 la divido entre 100; si ya está en 0–1 la dejo como está&#13;&#10;    / IIF((SUM([Calculation_2448832348950728705] * [Calculation_2448832348951191554]) / SUM([Calculation_2448832348951191554])) &gt; 1, 100, 1)&#13;&#10;END' />
+            </column>
+            <column datatype='string' name='[Dropout]' role='dimension' type='nominal' />
+            <column caption='Género' datatype='string' name='[Gender]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;Female&quot;' value='Femenino' />
+                <alias key='&quot;Male&quot;' value='Masculino ' />
+                <alias key='&quot;Non-binary&quot;' value='No Binario' />
+                <alias key='&quot;Prefer not to say&quot;' value='Prefiere no decirlo' />
+              </aliases>
+            </column>
+            <column caption='Escenario' datatype='string' name='[Scenario]' role='dimension' type='nominal' />
+            <column caption='Severidad clínica' datatype='string' name='[Severity_filled]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;High&quot;' value='Alta' />
+                <alias key='&quot;Low&quot;' value='Baja' />
+                <alias key='&quot;Medium&quot;' value='Media' />
+                <alias key='&quot;Unknown&quot;' value='Desconocida' />
+              </aliases>
+            </column>
+            <column caption='Level 4' datatype='string' name='[level_4]' role='dimension' type='nominal' />
+            <column-instance column='[Age_group]' derivation='None' name='[none:Age_group:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Gender]' derivation='None' name='[none:Gender:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Scenario]' derivation='None' name='[none:Scenario:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Severity_filled]' derivation='None' name='[none:Severity_filled:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_2448832348993282061]' derivation='User' name='[usr:Calculation_2448832348993282061:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_2448832349006045201]' derivation='User' name='[usr:Calculation_2448832349006045201:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[none:Scenario:nk]' filter-group='3'>
+            <groupfilter function='level-members' level='[none:Scenario:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[none:Scenario:nk]</column>
+            <column>[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[none:Gender:nk]</column>
+            <column>[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[none:Age_group:nk]</column>
+            <column>[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[none:Severity_filled:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-align' value='center' />
+            <format attr='vertical-align' value='center' />
+            <format attr='text-orientation' value='0' />
+            <format attr='font-size' data-class='subtotal' scope='cols' value='20' />
+            <format attr='font-weight' field='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[usr:Calculation_2448832349006045201:qk]' value='bold' />
+            <format attr='font-size' field='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[usr:Calculation_2448832349006045201:qk]' value='28' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='font-size' data-class='subtotal' scope='cols' value='20' />
+            <format attr='background-color' value='#14213d' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='color' scope='rows' value='#000000' />
+            <format attr='text-align' value='center' />
+            <format attr='vertical-align' value='center' />
+            <format attr='text-orientation' value='0' />
+            <format attr='wrap' value='off' />
+            <format attr='text-orientation' field='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[usr:Calculation_2448832349006045201:qk]' value='0' />
+            <format attr='text-orientation' scope='cols' value='0' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='background-color' value='#14213d' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#14213d' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='font-size' value='26' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' value='0' />
+          </style-rule>
+          <style-rule element='title'>
+            <format attr='font-size' value='14' />
+          </style-rule>
+          <style-rule element='axis-title'>
+            <format attr='font-size' field='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[usr:Calculation_2448832349006045201:qk]' value='14' />
+          </style-rule>
+          <style-rule element='tooltip'>
+            <format attr='font-size' value='15' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[usr:Calculation_2448832348993282061:nk]' />
+              <text column='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[usr:Calculation_2448832349006045201:qk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text />
+            </customized-tooltip>
+            <customized-label>
+              <formatted-text>
+                <run bold='true' fontsize='12'>&lt;</run>
+                <run bold='true' fontsize='12'>[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[usr:Calculation_2448832349006045201:qk]</run>
+                <run bold='true' fontsize='12'>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+                <format attr='vertical-align' value='center' />
+                <format attr='wrap' value='off' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='size' value='2.2430939674377441' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+              <style-rule element='trendline'>
+                <format attr='stroke-color' value='#ffffff67' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{3D6A9D0F-5967-4EDD-90C6-699A37556506}' />
+    </worksheet>
+    <worksheet name='KPI_Reduccion_vs_Base.'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#ffffff' fontname='Calibri' fontsize='9'>Reduccion esperada </run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='dataset_aggregated_official' name='federated.05w6ckd1swa2nq16dyihq0pfiqs3' />
+            <datasource caption='Parámetros' name='Parameters' />
+          </datasources>
+          <datasource-dependencies datasource='Parameters'>
+            <column caption='p_EscenarioBase' datatype='string' name='[Parámetro 1]' param-domain-type='list' role='measure' type='nominal' value='&quot;A&quot;'>
+              <calculation class='tableau' formula='&quot;A&quot;' />
+            </column>
+          </datasource-dependencies>
+          <datasource-dependencies datasource='federated.05w6ckd1swa2nq16dyihq0pfiqs3'>
+            <column caption='Rango de edad' datatype='string' name='[Age_group]' role='dimension' type='nominal' />
+            <column caption='Dropout_Base_KPI' datatype='real' default-format='p0.0%' name='[Calculation_154811288504799237]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='{ FIXED [Age_group], [Gender], [Severity_filled] :&#13;&#10;    AVG( IIF([Calculation_154811288510271499] AND [Scenario] = [Parameters].[Parámetro 1],&#13;&#10;             FLOAT([Dropout]),&#13;&#10;             NULL ) )&#13;&#10;}' />
+            </column>
+            <column caption='IsMean' datatype='boolean' name='[Calculation_154811288510271499]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='LOWER(TRIM([level_4])) = &quot;mean_dropout&quot;' />
+            </column>
+            <column caption='Reduccion_vs_Base_KPI' datatype='real' default-format='p0.0%' name='[Calculation_154811288511459341]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF ISNULL([Calculation_154811288504799237]) OR ISNULL([Calculation_2448832348974374920]) THEN &#13;&#10;    NULL&#13;&#10;ELSE&#13;&#10;    ([Calculation_154811288504799237] - [Calculation_2448832348974374920]) / 100&#13;&#10;END' />
+            </column>
+            <column caption='Dropout_Alternativo_KPI' datatype='real' name='[Calculation_2448832348974374920]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='{ FIXED [Age_group], [Gender], [Severity_filled] :&#13;&#10;    AVG( IIF([Calculation_154811288510271499] AND [Scenario] &lt;&gt; [Parameters].[Parámetro 1],&#13;&#10;             FLOAT([Dropout]),&#13;&#10;             NULL ) )&#13;&#10;}' />
+            </column>
+            <column caption='Color_Reduccion' datatype='string' name='[Calculation_2448832349015654420]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF ISNULL([Calculation_154811288511459341]) THEN &quot;s/d&quot;&#13;&#10;ELSEIF [Calculation_154811288511459341] &gt;= 0.05 THEN &quot;Mejora alta&quot;     // ≥5 pp&#13;&#10;ELSEIF [Calculation_154811288511459341] &gt; 0 THEN &quot;Mejora&quot;&#13;&#10;ELSEIF [Calculation_154811288511459341] = 0 THEN &quot;Igual&quot;&#13;&#10;ELSE &quot;Peor&quot;&#13;&#10;END' />
+            </column>
+            <column datatype='string' name='[Dropout]' role='dimension' type='nominal' />
+            <column caption='Género' datatype='string' name='[Gender]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;Female&quot;' value='Femenino' />
+                <alias key='&quot;Male&quot;' value='Masculino ' />
+                <alias key='&quot;Non-binary&quot;' value='No Binario' />
+                <alias key='&quot;Prefer not to say&quot;' value='Prefiere no decirlo' />
+              </aliases>
+            </column>
+            <column caption='Escenario' datatype='string' name='[Scenario]' role='dimension' type='nominal' />
+            <column caption='Severidad clínica' datatype='string' name='[Severity_filled]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;High&quot;' value='Alta' />
+                <alias key='&quot;Low&quot;' value='Baja' />
+                <alias key='&quot;Medium&quot;' value='Media' />
+                <alias key='&quot;Unknown&quot;' value='Desconocida' />
+              </aliases>
+            </column>
+            <column caption='Level 4' datatype='string' name='[level_4]' role='dimension' type='nominal' />
+            <column-instance column='[Age_group]' derivation='None' name='[none:Age_group:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_2448832349015654420]' derivation='None' name='[none:Calculation_2448832349015654420:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Gender]' derivation='None' name='[none:Gender:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Scenario]' derivation='None' name='[none:Scenario:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Severity_filled]' derivation='None' name='[none:Severity_filled:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_154811288511459341]' derivation='Sum' name='[sum:Calculation_154811288511459341:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[none:Scenario:nk]' filter-group='3'>
+            <groupfilter function='level-members' level='[none:Scenario:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[none:Scenario:nk]</column>
+            <column>[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[none:Gender:nk]</column>
+            <column>[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[none:Age_group:nk]</column>
+            <column>[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[none:Severity_filled:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-align' field='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[sum:Calculation_154811288511459341:qk]' value='center' />
+            <format attr='vertical-align' field='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[sum:Calculation_154811288511459341:qk]' value='center' />
+            <format attr='wrap' field='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[sum:Calculation_154811288511459341:qk]' value='off' />
+            <format attr='text-orientation' field='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[sum:Calculation_154811288511459341:qk]' value='0' />
+            <format attr='text-format' field='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[sum:Calculation_154811288511459341:qk]' value='n#,##0.0&quot;%&quot;;-#,##0.0&quot;%&quot;' />
+            <format attr='font-weight' field='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[sum:Calculation_154811288511459341:qk]' value='bold' />
+            <format attr='font-size' field='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[sum:Calculation_154811288511459341:qk]' value='28' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='font-size' scope='cols' value='12' />
+            <format attr='text-align' scope='cols' value='center' />
+            <format attr='vertical-align' scope='cols' value='center' />
+            <format attr='wrap' scope='cols' value='off' />
+            <format attr='text-orientation' scope='cols' value='0' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#14213d' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='font-size' value='15' />
+          </style-rule>
+          <style-rule element='title'>
+            <format attr='font-size' value='15' />
+          </style-rule>
+          <style-rule element='tooltip'>
+            <format attr='font-size' value='15' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Text' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[none:Calculation_2448832349015654420:nk]' />
+              <text column='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[sum:Calculation_154811288511459341:qk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text />
+            </customized-tooltip>
+            <customized-label>
+              <formatted-text>
+                <run bold='true' fontcolor='#ffffff' fontsize='12'><![CDATA[<[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[sum:Calculation_154811288511459341:qk]>]]></run>
+                <run fontalignment='0'>Æ&#10;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+                <format attr='vertical-align' value='center' />
+                <format attr='wrap' value='off' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='size' value='4.9290008544921875' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{14BDED26-34B8-4C47-9EEC-E9AD64E3DF07}' />
+    </worksheet>
+    <worksheet name='KPI_Retención_Global.'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontcolor='#ffffff' fontname='Calibri' fontsize='9'>Retención Global </run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='dataset_aggregated_official' name='federated.05w6ckd1swa2nq16dyihq0pfiqs3' />
+          </datasources>
+          <datasource-dependencies datasource='federated.05w6ckd1swa2nq16dyihq0pfiqs3'>
+            <column caption='Rango de edad' datatype='string' name='[Age_group]' role='dimension' type='nominal' />
+            <column caption='IsMean' datatype='boolean' name='[Calculation_154811288510271499]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='LOWER(TRIM([level_4])) = &quot;mean_dropout&quot;' />
+            </column>
+            <column caption='IsN' datatype='boolean' name='[Calculation_2448832348950544384]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='LOWER(TRIM([level_4])) = &quot;n&quot;' />
+            </column>
+            <column caption='Mean_at_grain' datatype='real' name='[Calculation_2448832348950728705]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='{ FIXED [Scenario], [Age_group], [Gender], [Severity_filled] :&#13;&#10;    AVG( IIF([Calculation_154811288510271499], FLOAT([Dropout]), NULL) )&#13;&#10;}' />
+            </column>
+            <column caption='N_at_grain' datatype='real' default-format='N' name='[Calculation_2448832348951191554]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='{ FIXED [Scenario], [Age_group], [Gender], [Severity_filled] :&#13;&#10;    AVG( IIF([Calculation_2448832348950544384], FLOAT([Dropout]), NULL) )&#13;&#10;}' />
+            </column>
+            <column caption='Abandono_Global_pct' datatype='real' default-format='p0.0%' name='[Calculation_2448832349006045201]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='// Media ponderada y normalización a proporción 0–1&#13;&#10;IF SUM([Calculation_2448832348951191554]) = 0 THEN NULL&#13;&#10;ELSE&#13;&#10;    // media ponderada en las unidades originales&#13;&#10;    (SUM([Calculation_2448832348950728705] * [Calculation_2448832348951191554]) / SUM([Calculation_2448832348951191554]))&#13;&#10;    // si viene en 0–100 la divido entre 100; si ya está en 0–1 la dejo como está&#13;&#10;    / IIF((SUM([Calculation_2448832348950728705] * [Calculation_2448832348951191554]) / SUM([Calculation_2448832348951191554])) &gt; 1, 100, 1)&#13;&#10;END' />
+            </column>
+            <column caption='Retencion_Global_pct' datatype='real' default-format='p0.0%' name='[Calculation_2448832349006622738]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF ISNULL([Calculation_2448832349006045201]) THEN NULL&#13;&#10;ELSE 1 - [Calculation_2448832349006045201]&#13;&#10;END' />
+            </column>
+            <column caption='Color_Retencion_Global' datatype='string' name='[Calculation_2448832349008691219]' role='measure' type='nominal'>
+              <calculation class='tableau' formula='IF [Calculation_2448832349006622738] &lt; 0.60 THEN &quot;Rojo&quot;&#13;&#10;ELSEIF [Calculation_2448832349006622738] &lt; 0.80 THEN &quot;Amarillo&quot;&#13;&#10;ELSE &quot;Verde&quot;&#13;&#10;END' />
+            </column>
+            <column datatype='string' name='[Dropout]' role='dimension' type='nominal' />
+            <column caption='Género' datatype='string' name='[Gender]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;Female&quot;' value='Femenino' />
+                <alias key='&quot;Male&quot;' value='Masculino ' />
+                <alias key='&quot;Non-binary&quot;' value='No Binario' />
+                <alias key='&quot;Prefer not to say&quot;' value='Prefiere no decirlo' />
+              </aliases>
+            </column>
+            <column caption='Escenario' datatype='string' name='[Scenario]' role='dimension' type='nominal' />
+            <column caption='Severidad clínica' datatype='string' name='[Severity_filled]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;High&quot;' value='Alta' />
+                <alias key='&quot;Low&quot;' value='Baja' />
+                <alias key='&quot;Medium&quot;' value='Media' />
+                <alias key='&quot;Unknown&quot;' value='Desconocida' />
+              </aliases>
+            </column>
+            <column caption='Level 4' datatype='string' name='[level_4]' role='dimension' type='nominal' />
+            <column-instance column='[Age_group]' derivation='None' name='[none:Age_group:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Gender]' derivation='None' name='[none:Gender:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Scenario]' derivation='None' name='[none:Scenario:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Severity_filled]' derivation='None' name='[none:Severity_filled:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_2448832349006622738]' derivation='User' name='[usr:Calculation_2448832349006622738:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_2448832349008691219]' derivation='User' name='[usr:Calculation_2448832349008691219:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[none:Scenario:nk]' filter-group='3'>
+            <groupfilter function='level-members' level='[none:Scenario:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[none:Scenario:nk]</column>
+            <column>[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[none:Gender:nk]</column>
+            <column>[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[none:Age_group:nk]</column>
+            <column>[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[none:Severity_filled:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-align' field='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[usr:Calculation_2448832349006622738:qk]' value='center' />
+            <format attr='vertical-align' field='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[usr:Calculation_2448832349006622738:qk]' value='center' />
+            <format attr='text-orientation' field='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[usr:Calculation_2448832349006622738:qk]' value='0' />
+            <format attr='wrap' field='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[usr:Calculation_2448832349006622738:qk]' value='off' />
+            <format attr='font-weight' field='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[usr:Calculation_2448832349006622738:qk]' value='bold' />
+            <format attr='font-size' field='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[usr:Calculation_2448832349006622738:qk]' value='28' />
+            <format attr='text-align' value='center' />
+            <format attr='vertical-align' value='center' />
+            <format attr='wrap' value='off' />
+            <format attr='text-orientation' value='0' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='font-size' scope='cols' value='20' />
+            <format attr='text-orientation' scope='cols' value='0' />
+            <format attr='text-align' value='center' />
+            <format attr='vertical-align' value='center' />
+            <format attr='text-orientation' value='0' />
+            <format attr='wrap' value='off' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#14213d' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='font-style' value='normal' />
+            <format attr='font-weight' value='normal' />
+            <format attr='font-size' value='28' />
+          </style-rule>
+          <style-rule element='tooltip'>
+            <format attr='font-size' value='15' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Text' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[usr:Calculation_2448832349008691219:nk]' />
+              <text column='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[usr:Calculation_2448832349006622738:qk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run bold='true'>&gt;</run>
+              </formatted-text>
+            </customized-tooltip>
+            <customized-label>
+              <formatted-text>
+                <run bold='true' fontcolor='#ffffff' fontsize='12'>&lt;</run>
+                <run bold='true' fontcolor='#ffffff' fontsize='12'>[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[usr:Calculation_2448832349006622738:qk]</run>
+                <run bold='true' fontcolor='#ffffff' fontsize='12'>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+                <format attr='vertical-align' value='center' />
+                <format attr='wrap' value='off' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='size' value='2' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{FD22D35A-7014-410F-A07D-AFAD6B944AB8}' />
+    </worksheet>
+    <worksheet name='Resumen A/B (tabla)'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#ffffff' fontname='Segoe UI Semibold' fontsize='11'>Comparativa A/B: métricas clave</run>
+            <run>Æ&#10;</run>
+            <run fontcolor='#e6e6e6' fontname='Benton Sans Book' fontsize='9' italic='true'>Porcentajes ponderados por N. IC95% por escenario.</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='dataset_aggregated_official' name='federated.05w6ckd1swa2nq16dyihq0pfiqs3' />
+          </datasources>
+          <datasource-dependencies datasource='federated.05w6ckd1swa2nq16dyihq0pfiqs3'>
+            <column caption='Rango de edad' datatype='string' name='[Age_group]' role='dimension' type='nominal' />
+            <column caption='IsMean' datatype='boolean' name='[Calculation_154811288510271499]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='LOWER(TRIM([level_4])) = &quot;mean_dropout&quot;' />
+            </column>
+            <column caption='Tasa_Abandono_%' datatype='real' default-format='p0.0%' name='[Calculation_1738389508147326976]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF SUM([Calculation_2448832348951191554]) = 0 THEN NULL&#13;&#10;ELSE (SUM([Calculation_2448832348950728705] * [Calculation_2448832348951191554]) / SUM([Calculation_2448832348951191554])) / 100&#13;&#10;END' />
+            </column>
+            <column caption='IC_Inf' datatype='real' default-format='p0.0%' name='[Calculation_1738389508159815684]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[Calculation_2448832348953735174] / 100' />
+            </column>
+            <column caption='IC_Sup' datatype='real' default-format='p0.0%' name='[Calculation_1738389508159885317]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[Calculation_2448832348953841671] / 100' />
+            </column>
+            <column caption='IsN' datatype='boolean' name='[Calculation_2448832348950544384]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='LOWER(TRIM([level_4])) = &quot;n&quot;' />
+            </column>
+            <column caption='Mean_at_grain' datatype='real' name='[Calculation_2448832348950728705]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='{ FIXED [Scenario], [Age_group], [Gender], [Severity_filled] :&#13;&#10;    AVG( IIF([Calculation_154811288510271499], FLOAT([Dropout]), NULL) )&#13;&#10;}' />
+            </column>
+            <column caption='N_at_grain' datatype='real' default-format='N' name='[Calculation_2448832348951191554]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='{ FIXED [Scenario], [Age_group], [Gender], [Severity_filled] :&#13;&#10;    AVG( IIF([Calculation_2448832348950544384], FLOAT([Dropout]), NULL) )&#13;&#10;}' />
+            </column>
+            <column caption='CI_low_at_grain' datatype='real' name='[Calculation_2448832348951941124]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='{ FIXED [Scenario], [Age_group], [Gender], [Severity_filled] :&#13;&#10;    AVG( IIF(LOWER(TRIM([level_4]))=&quot;ci_low&quot;, FLOAT([Dropout]), NULL) )&#13;&#10;}' />
+            </column>
+            <column caption='CI_high_at_grain' datatype='real' name='[Calculation_2448832348952350725]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='{ FIXED [Scenario], [Age_group], [Gender], [Severity_filled] :&#13;&#10;    AVG( IIF(LOWER(TRIM([level_4]))=&quot;ci_high&quot;, FLOAT([Dropout]), NULL) )&#13;&#10;}' />
+            </column>
+            <column caption='CI_low_Ponderado' datatype='real' default-format='p0.0%' name='[Calculation_2448832348953735174]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF SUM([Calculation_2448832348951191554]) = 0 THEN NULL&#13;&#10;ELSE SUM([Calculation_2448832348951941124]*[Calculation_2448832348951191554]) / SUM([Calculation_2448832348951191554])&#13;&#10;END' />
+            </column>
+            <column caption='CI_high_Ponderado' datatype='real' default-format='p0.0%' name='[Calculation_2448832348953841671]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF SUM([Calculation_2448832348951191554]) = 0 THEN NULL&#13;&#10;ELSE SUM([Calculation_2448832348952350725]*[Calculation_2448832348951191554]) / SUM([Calculation_2448832348951191554])&#13;&#10;END' />
+            </column>
+            <column datatype='string' name='[Dropout]' role='dimension' type='nominal' />
+            <column caption='Género' datatype='string' name='[Gender]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;Female&quot;' value='Femenino' />
+                <alias key='&quot;Male&quot;' value='Masculino ' />
+                <alias key='&quot;Non-binary&quot;' value='No Binario' />
+                <alias key='&quot;Prefer not to say&quot;' value='Prefiere no decirlo' />
+              </aliases>
+            </column>
+            <column caption='Escenario' datatype='string' name='[Scenario]' role='dimension' type='nominal' />
+            <column caption='Severidad clínica' datatype='string' name='[Severity_filled]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;High&quot;' value='Alta' />
+                <alias key='&quot;Low&quot;' value='Baja' />
+                <alias key='&quot;Medium&quot;' value='Media' />
+                <alias key='&quot;Unknown&quot;' value='Desconocida' />
+              </aliases>
+            </column>
+            <column caption='Level 4' datatype='string' name='[level_4]' role='dimension' type='nominal' />
+            <column-instance column='[Age_group]' derivation='None' name='[none:Age_group:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Gender]' derivation='None' name='[none:Gender:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Scenario]' derivation='None' name='[none:Scenario:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Severity_filled]' derivation='None' name='[none:Severity_filled:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_2448832348950728705]' derivation='Sum' name='[sum:Calculation_2448832348950728705:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1738389508147326976]' derivation='User' name='[usr:Calculation_1738389508147326976:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1738389508159815684]' derivation='User' name='[usr:Calculation_1738389508159815684:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1738389508159885317]' derivation='User' name='[usr:Calculation_1738389508159885317:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[usr:Calculation_1738389508147326976:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[usr:Calculation_1738389508159815684:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[usr:Calculation_1738389508159885317:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[sum:Calculation_2448832348950728705:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[usr:Calculation_1738389508147326976:qk]&quot;</bucket>
+              <bucket>&quot;[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[usr:Calculation_1738389508159815684:qk]&quot;</bucket>
+              <bucket>&quot;[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[usr:Calculation_1738389508159885317:qk]&quot;</bucket>
+              <bucket>&quot;[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[sum:Calculation_2448832348950728705:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[none:Age_group:nk]</column>
+            <column>[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[none:Gender:nk]</column>
+            <column>[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[none:Severity_filled:nk]</column>
+            <column>[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[:Measure Names]' value='82' />
+            <format attr='height' field='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[none:Scenario:nk]' value='35' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='band-color' scope='rows' value='#1f2d50' />
+            <format attr='width' field='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[none:Scenario:nk]' value='116' />
+          </style-rule>
+          <style-rule element='field-labels'>
+            <format attr='color' value='#ffffff' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='color' field='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[:Measure Names]' value='#ffffff' />
+            <format attr='color' field='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[none:Scenario:nk]' value='#ffffff' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='band-color' scope='rows' value='#1f2d50' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='band-size' scope='rows' value='2' />
+            <format attr='background-color' value='#14213d' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Text' />
+            <encodings>
+              <color column='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[:Measure Names]' />
+              <text column='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[Multiple Values]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[none:Scenario:nk]</rows>
+        <cols>[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[:Measure Names]</cols>
+      </table>
+      <simple-id uuid='{58DFF667-D0CB-4005-B936-575022E326AE}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard enable-sort-zone-taborder='true' name='Dashboard 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1' fontcolor='#ffffff' fontname='Segoe UI Semibold'>Abandono en Terapias Digitales de Salud Mental</run>
+            <run>Æ&#10;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <style>
+        <style-rule element='table'>
+          <format attr='background-color' value='#14213d' />
+        </style-rule>
+        <style-rule element='dash-title'>
+          <format attr='font-weight' value='bold' />
+        </style-rule>
+        <style-rule element='dash-text'>
+          <format attr='vertical-align' id='dash-text_11' value='center' />
+          <format attr='wrap' id='dash-text_11' value='off' />
+          <format attr='text-align' id='dash-text_11' value='left' />
+        </style-rule>
+      </style>
+      <size maxheight='860' maxwidth='1200' minheight='800' minwidth='1200' sizing-mode='range' />
+      <datasources>
+        <datasource caption='dataset_aggregated_official' name='federated.05w6ckd1swa2nq16dyihq0pfiqs3' />
+      </datasources>
+      <datasource-dependencies datasource='federated.05w6ckd1swa2nq16dyihq0pfiqs3'>
+        <column caption='Rango de edad' datatype='string' name='[Age_group]' role='dimension' type='nominal' />
+        <column caption='Género' datatype='string' name='[Gender]' role='dimension' type='nominal'>
+          <aliases>
+            <alias key='&quot;Female&quot;' value='Femenino' />
+            <alias key='&quot;Male&quot;' value='Masculino ' />
+            <alias key='&quot;Non-binary&quot;' value='No Binario' />
+            <alias key='&quot;Prefer not to say&quot;' value='Prefiere no decirlo' />
+          </aliases>
+        </column>
+        <column caption='Escenario' datatype='string' name='[Scenario]' role='dimension' type='nominal' />
+        <column caption='Severidad clínica' datatype='string' name='[Severity_filled]' role='dimension' type='nominal'>
+          <aliases>
+            <alias key='&quot;High&quot;' value='Alta' />
+            <alias key='&quot;Low&quot;' value='Baja' />
+            <alias key='&quot;Medium&quot;' value='Media' />
+            <alias key='&quot;Unknown&quot;' value='Desconocida' />
+          </aliases>
+        </column>
+        <column-instance column='[Age_group]' derivation='None' name='[none:Age_group:nk]' pivot='key' type='nominal' />
+        <column-instance column='[Gender]' derivation='None' name='[none:Gender:nk]' pivot='key' type='nominal' />
+        <column-instance column='[Scenario]' derivation='None' name='[none:Scenario:nk]' pivot='key' type='nominal' />
+        <column-instance column='[Severity_filled]' derivation='None' name='[none:Severity_filled:nk]' pivot='key' type='nominal' />
+      </datasource-dependencies>
+      <zones>
+        <zone h='100000' id='126' type-v2='layout-basic' w='100000' x='0' y='0' />
+        <zone h='8105' id='10' type-v2='title' w='64833' x='17417' y='748' />
+        <zone forceUpdate='true' h='3741' id='26' type-v2='text' w='11250' x='40750' y='10224'>
+          <formatted-text>
+            <run bold='true' fontcolor='#ffffff' fontname='Segoe UI Semibold'>Retención Global</run>
+          </formatted-text>
+        </zone>
+        <zone forceUpdate='true' h='4115' id='27' type-v2='text' w='10583' x='19583' y='10224'>
+          <formatted-text>
+            <run bold='true' fontcolor='#ffffff' fontname='Segoe UI Semibold'>Abandono Global</run>
+          </formatted-text>
+        </zone>
+        <zone forceUpdate='true' h='3741' id='28' type-v2='text' w='12417' x='60500' y='10224'>
+          <formatted-text>
+            <run bold='true' fontcolor='#ffffff' fontname='Segoe UI Semibold'>Reducción Esperada</run>
+          </formatted-text>
+        </zone>
+        <zone h='4364' id='41' image-file-url='https://img.icons8.com/?size=100&amp;id=jd9PONvN1us8&amp;format=png&amp;color=FFFFFF' is-centered='0' is-scaled='1' type-v2='bitmap' w='3333' x='47917' y='14589' />
+        <zone h='4613' id='54' image-file-url='https://img.icons8.com/?size=100&amp;id=85ZpysgZPPlB&amp;format=png&amp;color=FFFFFF' is-centered='0' is-scaled='1' type-v2='bitmap' w='2833' x='68083' y='14214' />
+        <zone h='13750' id='80' image-file-url='https://img.icons8.com/?size=100&amp;id=66477&amp;format=png&amp;color=FFFFFF' is-centered='0' is-scaled='1' type-v2='bitmap' w='10417' x='87917' y='1875' />
+        <zone h='4364' id='40' image-file-url='https://img.icons8.com/?size=100&amp;id=KO65DGj15hgi&amp;format=png&amp;color=FFFFFF' is-centered='0' is-scaled='1' type-v2='bitmap' w='3417' x='26667' y='13840' />
+        <zone h='6733' id='98' mode='dropdown' name='Abandono por Género' param='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[none:Gender:nk]' type-v2='filter' w='11417' x='86917' y='30424' />
+        <zone h='39526' id='101' name='Abandono por Severidad' w='24750' x='59500' y='21571'>
+          <layout-cache minwidth='180' type-h='fixed' type-w='scalable' />
+        </zone>
+        <zone h='34289' id='102' name='Comparación A/B con IC95% ' w='27417' x='50667' y='63965' />
+        <zone fixed-size='55' h='4489' id='71' is-fixed='true' layout-strategy-id='distribute-evenly' param='horz' type-v2='layout-flow' w='64667' x='19667' y='14713'>
+          <zone fixed-size='262' h='4489' id='43' is-fixed='true' name='KPI_Abandono_Global.' show-title='false' w='21583' x='19667' y='14713'>
+            <layout-cache fixed-size-h='28' type-h='fixed' type-w='fixed' />
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone fixed-size='257' h='4489' id='44' is-fixed='true' name='KPI_Retención_Global.' show-title='false' w='21583' x='41250' y='14713'>
+            <layout-cache fixed-size-h='28' type-h='fixed' type-w='fixed' />
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone fixed-size='180' h='4489' id='105' is-fixed='true' name='KPI_Reduccion_vs_Base.' show-title='false' w='21500' x='62833' y='14713'>
+            <layout-cache type-h='fixed' type-w='fixed' />
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+        </zone>
+        <zone h='36658' id='103' name='Abandono por Género' w='26833' x='32000' y='21696'>
+          <layout-cache type-h='fixed' type-w='cell' />
+        </zone>
+        <zone fixed-size='82' h='7606' id='96' is-fixed='true' mode='dropdown' name='Abandono por Género' param='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[none:Scenario:nk]' type-v2='filter' values='all' w='11333' x='87083' y='55985' />
+        <zone fixed-size='195' h='7606' id='97' is-fixed='true' mode='dropdown' name='Abandono por Género' param='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[none:Severity_filled:nk]' type-v2='filter' w='11333' x='87167' y='47756' />
+        <zone fixed-size='290' h='7606' id='104' is-fixed='true' mode='dropdown' name='Abandono por Género' param='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[none:Age_group:nk]' type-v2='filter' w='11333' x='87083' y='38653' />
+        <zone h='1375' id='111' type-v2='empty' w='33333' x='-583' y='19625' />
+        <zone h='998' id='113' type-v2='empty' w='85917' x='0' y='61845'>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='solid' />
+            <format attr='border-width' value='1' />
+            <format attr='background-color' value='#c0c0c0' />
+          </zone-style>
+        </zone>
+        <zone h='99751' id='114' type-v2='empty' w='417' x='85917' y='249'>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='solid' />
+            <format attr='border-width' value='1' />
+            <format attr='background-color' value='#c0c0c0' />
+          </zone-style>
+        </zone>
+        <zone forceUpdate='true' h='4250' id='115' type-v2='text' w='16750' x='84750' y='17000'>
+          <formatted-text>
+            <run fontalignment='1' fontcolor='#ffffff' fontname='Segoe UI Light' italic='true'>Por: Andrea Buenaño</run>
+          </formatted-text>
+        </zone>
+        <zone h='99751' id='117' type-v2='empty' w='417' x='99500' y='249'>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='solid' />
+            <format attr='border-width' value='1' />
+            <format attr='background-color' value='#c0c0c0' />
+          </zone-style>
+        </zone>
+        <zone h='748' id='118' type-v2='empty' w='99333' x='250' y='125'>
+          <zone-style>
+            <format attr='border-color' value='#ffffff' />
+            <format attr='border-style' value='solid' />
+            <format attr='border-width' value='1' />
+            <format attr='background-color' value='#c0c0c0' />
+          </zone-style>
+        </zone>
+        <zone h='99751' id='119' type-v2='empty' w='417' x='83' y='374'>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='solid' />
+            <format attr='border-width' value='1' />
+            <format attr='background-color' value='#c0c0c0' />
+          </zone-style>
+        </zone>
+        <zone h='998' id='120' type-v2='empty' w='99583' x='333' y='99002'>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='solid' />
+            <format attr='border-width' value='1' />
+            <format attr='background-color' value='#c0c0c0' />
+          </zone-style>
+        </zone>
+        <zone h='25935' id='121' name='Resumen A/B (tabla)' w='38667' x='9667' y='68204' />
+        <zone h='15212' id='124' name='Abandono por Edad ' w='26917' x='2750' y='45387' />
+        <zone h='23067' id='125' name='Edad – Composición severidad. (2)' w='33333' x='2000' y='22195' />
+        <zone h='873' id='127' type-v2='empty' w='85500' x='500' y='19950'>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='solid' />
+            <format attr='border-width' value='1' />
+            <format attr='background-color' value='#c0c0c0' />
+          </zone-style>
+        </zone>
+        <zone h='14090' id='128' image-file-url='https://img.icons8.com/?size=100&amp;id=3TzJzEIWY6Cr&amp;format=png&amp;color=FFFFFF' is-centered='0' is-scaled='1' type-v2='bitmap' w='10583' x='3417' y='3242' />
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <layout-options>
+            <title>
+              <formatted-text>
+                <run fontalignment='1' fontcolor='#ffffff' fontname='Segoe UI Semibold'>Abandono en Terapias Digitales de Salud Mental</run>
+                <run>Æ&#10;</run>
+              </formatted-text>
+            </title>
+          </layout-options>
+          <size maxheight='2550' minheight='2550' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='140' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98004' id='139' param='vert' type-v2='layout-flow' w='98666' x='667' y='998'>
+                <zone h='8105' id='10' type-v2='title' w='64833' x='17417' y='748'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='118' h='13750' id='80' image-file-url='https://img.icons8.com/?size=100&amp;id=66477&amp;format=png&amp;color=FFFFFF' is-centered='0' is-fixed='true' is-scaled='1' type-v2='bitmap' w='10417' x='87917' y='1875'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='121' h='14090' id='128' image-file-url='https://img.icons8.com/?size=100&amp;id=3TzJzEIWY6Cr&amp;format=png&amp;color=FFFFFF' is-centered='0' is-fixed='true' is-scaled='1' type-v2='bitmap' w='10583' x='3417' y='3242'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='4115' id='27' type-v2='text' w='10583' x='19583' y='10224'>
+                  <formatted-text>
+                    <run bold='true' fontcolor='#ffffff' fontname='Segoe UI Semibold'>Abandono Global</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='3741' id='26' type-v2='text' w='11250' x='40750' y='10224'>
+                  <formatted-text>
+                    <run bold='true' fontcolor='#ffffff' fontname='Segoe UI Semibold'>Retención Global</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='3741' id='28' type-v2='text' w='12417' x='60500' y='10224'>
+                  <formatted-text>
+                    <run bold='true' fontcolor='#ffffff' fontname='Segoe UI Semibold'>Reducción Esperada</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='38' h='4364' id='40' image-file-url='https://img.icons8.com/?size=100&amp;id=KO65DGj15hgi&amp;format=png&amp;color=FFFFFF' is-centered='0' is-fixed='true' is-scaled='1' type-v2='bitmap' w='3417' x='26667' y='13840'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='40' h='4613' id='54' image-file-url='https://img.icons8.com/?size=100&amp;id=85ZpysgZPPlB&amp;format=png&amp;color=FFFFFF' is-centered='0' is-fixed='true' is-scaled='1' type-v2='bitmap' w='2833' x='68083' y='14214'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='38' h='4364' id='41' image-file-url='https://img.icons8.com/?size=100&amp;id=jd9PONvN1us8&amp;format=png&amp;color=FFFFFF' is-centered='0' is-fixed='true' is-scaled='1' type-v2='bitmap' w='3333' x='47917' y='14589'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='30' h='4489' id='43' is-fixed='true' name='KPI_Abandono_Global.' show-title='false' w='21583' x='19667' y='14713'>
+                  <layout-cache fixed-size-h='28' type-h='fixed' type-w='fixed' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='30' h='4489' id='44' is-fixed='true' name='KPI_Retención_Global.' show-title='false' w='21583' x='41250' y='14713'>
+                  <layout-cache fixed-size-h='28' type-h='fixed' type-w='fixed' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='30' h='4489' id='105' is-fixed='true' name='KPI_Reduccion_vs_Base.' show-title='false' w='21500' x='62833' y='14713'>
+                  <layout-cache type-h='fixed' type-w='fixed' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='4250' id='115' type-v2='text' w='16750' x='84750' y='17000'>
+                  <formatted-text>
+                    <run fontalignment='1' fontcolor='#ffffff' fontname='Segoe UI Light' italic='true'>Por: Andrea Buenaño</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='39526' id='101' is-fixed='true' name='Abandono por Severidad' w='24750' x='59500' y='21571'>
+                  <layout-cache minwidth='180' type-h='fixed' type-w='scalable' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='6733' id='98' mode='dropdown' name='Abandono por Género' param='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[none:Gender:nk]' type-v2='filter' w='11417' x='86917' y='30424'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='82' h='7606' id='96' mode='dropdown' name='Abandono por Género' param='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[none:Scenario:nk]' type-v2='filter' values='all' w='11333' x='87083' y='55985'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='195' h='7606' id='97' mode='dropdown' name='Abandono por Género' param='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[none:Severity_filled:nk]' type-v2='filter' w='11333' x='87167' y='47756'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='290' h='7606' id='104' mode='dropdown' name='Abandono por Género' param='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[none:Age_group:nk]' type-v2='filter' w='11333' x='87083' y='38653'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='36658' id='103' is-fixed='true' name='Abandono por Género' w='26833' x='32000' y='21696'>
+                  <layout-cache type-h='fixed' type-w='cell' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='198' h='23067' id='125' is-fixed='true' name='Edad – Composición severidad. (2)' w='33333' x='2000' y='22195'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='131' h='15212' id='124' is-fixed='true' name='Abandono por Edad ' w='26917' x='2750' y='45387'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='34289' id='102' is-fixed='true' name='Comparación A/B con IC95% ' w='27417' x='50667' y='63965'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='223' h='25935' id='121' is-fixed='true' name='Resumen A/B (tabla)' w='38667' x='9667' y='68204'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{7C61973A-F0D0-4DF2-9A19-25D5678076D2}' />
+    </dashboard>
+  </dashboards>
+  <windows pres-mode='true' source-height='37'>
+    <window class='worksheet' name='KPI_Abandono_Global.' tab-color='#f66273'>
+      <cards>
+        <edge name='left'>
+          <strip size='296'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='173'>
+            <card param='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[none:Scenario:nk]' type='filter' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{751A59BA-EFDC-43CA-A36D-70F3FE7FA92E}' />
+    </window>
+    <window class='worksheet' name='KPI_Retención_Global.' tab-color='#f66273'>
+      <cards>
+        <edge name='left'>
+          <strip size='220'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{93906741-00DB-4BBB-B4D7-D4121EBE09C6}' />
+    </window>
+    <window class='worksheet' name='KPI_Reduccion_vs_Base.' tab-color='#f66273'>
+      <cards>
+        <edge name='left'>
+          <strip size='272'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='172'>
+            <card mode='dropdown' param='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[none:Scenario:nk]' type='filter' />
+            <card mode='dropdown' param='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[none:Severity_filled:nk]' type='filter' />
+            <card mode='dropdown' param='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[none:Age_group:nk]' type='filter' />
+            <card mode='checkdropdown' param='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[none:Gender:nk]' type='filter' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{286F39CD-3B3A-4734-86AF-AA42D4C03610}' />
+    </window>
+    <window class='worksheet' name='Abandono por Edad ' tab-color='#6e597f'>
+      <cards>
+        <edge name='left'>
+          <strip size='110'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card mode='dropdown' param='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[none:Age_group:nk]' type='filter' />
+            <card mode='dropdown' param='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[none:Scenario:nk]' type='filter' />
+            <card mode='dropdown' param='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[none:Severity_filled:nk]' type='filter' />
+            <card mode='dropdown' param='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[none:Gender:nk]' type='filter' />
+            <card pane-specification-id='0' param='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[none:Age_group:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{17AEDD08-21A9-46DA-AE88-70750F67AF79}' />
+    </window>
+    <window class='worksheet' name='Edad – Composición severidad. (2)' tab-color='#6e597f'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{90B22B56-863A-4C23-836E-EB9700BBD872}' />
+    </window>
+    <window class='worksheet' name='Abandono por Género' tab-color='#6e597f'>
+      <cards>
+        <edge name='left'>
+          <strip size='248'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card mode='dropdown' param='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[none:Age_group:nk]' type='filter' />
+            <card mode='dropdown' param='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[none:Scenario:nk]' type='filter' />
+            <card mode='dropdown' param='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[none:Severity_filled:nk]' type='filter' />
+            <card mode='dropdown' param='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[none:Gender:nk]' type='filter' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{8FF13D48-2B31-48B3-82CD-54EE34AA9F99}' />
+    </window>
+    <window class='worksheet' name='Abandono por Severidad' tab-color='#6e597f'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='marks' />
+            <card type='filters' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card mode='dropdown' param='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[none:Scenario:nk]' type='filter' />
+            <card mode='dropdown' param='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[none:Severity_filled:nk]' type='filter' />
+            <card mode='dropdown' param='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[none:Gender:nk]' type='filter' />
+          </strip>
+        </edge>
+        <edge name='bottom'>
+          <strip size='92'>
+            <card type='caption' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{33A2AA18-AED5-44F3-8C83-E497C9D23A0B}' />
+    </window>
+    <window class='worksheet' name='Comparación A/B con IC95% ' tab-color='#17927d'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='172'>
+            <card mode='dropdown' param='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[none:Severity_filled:nk]' type='filter' />
+            <card mode='dropdown' param='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[none:Age_group:nk]' type='filter' />
+            <card mode='dropdown' param='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[none:Gender:nk]' type='filter' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{145C50DC-B222-4F1D-AB2F-673624E7D800}' />
+    </window>
+    <window class='worksheet' name='Resumen A/B (tabla)' tab-color='#17927d'>
+      <cards>
+        <edge name='left'>
+          <strip size='100'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='172'>
+            <card pane-specification-id='0' param='[federated.05w6ckd1swa2nq16dyihq0pfiqs3].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{8EF8519B-AB83-49BA-B2E8-66B85854C7C5}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Abandono por Edad '>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Abandono por Género'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Abandono por Severidad' />
+        <viewpoint name='Comparación A/B con IC95% '>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Edad – Composición severidad. (2)' />
+        <viewpoint name='KPI_Abandono_Global.' />
+        <viewpoint name='KPI_Reduccion_vs_Base.' />
+        <viewpoint name='KPI_Retención_Global.' />
+        <viewpoint name='Resumen A/B (tabla)' />
+      </viewpoints>
+      <active id='126' />
+      <simple-id uuid='{EF94AC52-8714-4A93-82A5-275162388845}' />
+    </window>
+  </windows>
+  <explain-data enabled-for-viewer='false' extreme-values-enabled-for-all='false'>
+    <explanation-types>
+      <explanation-type enabled='true' type='number-of-records' />
+      <explanation-type enabled='true' type='average-of-records' />
+      <explanation-type enabled='true' type='aggregated-dimensions' />
+      <explanation-type enabled='true' type='distribution-of-records' />
+      <explanation-type enabled='true' type='unvisualized-measures' />
+      <explanation-type enabled='true' type='extreme-values' />
+      <explanation-type enabled='true' type='null-value' />
+      <explanation-type enabled='true' type='tvd-single-value' />
+      <explanation-type enabled='true' type='ad-single-value' />
+    </explanation-types>
+  </explain-data>
+</workbook>

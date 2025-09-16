@@ -1,0 +1,10 @@
+Variable,Descripción,Tipo
+Scenario,"Escenario de simulación (Control, A, B, etc.)",Categorical
+Age_group,"Grupo de edad del participante (ej. 18-29, 30-44, etc.)",Categorical
+Gender,"Género del participante (Male, Female)",Categorical
+Severity_filled,"Nivel de severidad de la condición de salud mental (Low, Medium, High)",Categorical
+Mental_Health_Condition,"Presencia de condición de salud mental diagnosticada (Yes, No). Solo en dataset extendido.",Categorical
+Mean_dropout,Promedio de abandono (%) en el grupo,Numeric (float)
+CI_low,Límite inferior del intervalo de confianza 95% para abandono (%),Numeric (float)
+CI_high,Límite superior del intervalo de confianza 95% para abandono (%),Numeric (float)
+n,Número de observaciones en el grupo,Numeric (integer)

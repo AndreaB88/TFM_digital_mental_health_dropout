@@ -1,0 +1,25 @@
+Variable,Descripción
+User_ID,Identificador único del usuario
+Age,Edad en años
+Age_group,"Grupo de edad categorizado (18–29, 30–44, 45–59, 60+)"
+Gender,"Género declarado (Female, Male, Non-binary, Prefer not to say)"
+Country,"País de residencia (India, USA, Germany, Canada, Australia, UK, Other)"
+Mental_Health_Condition,Indica si el usuario tiene condición de salud mental diagnosticada (Yes/No)
+Severity_filled,"Severidad de la condición (Low, Medium, High, Unknown para valores faltantes)"
+Consultation_History,Historial de consultas médicas previas (Yes/No)
+Stress_Level,"Nivel de estrés percibido (Low, Medium, High)"
+Sleep_Hours,Horas promedio de sueño por día
+Sleep_group,"Categorías de horas de sueño (<5h, 5–7h, 7–9h, >9h)"
+Work_Hours,Horas de trabajo semanales
+Work_group,"Categorías de horas de trabajo (≤40h, 41–55h, 56–70h, >70h)"
+Physical_Activity_Hours,Horas promedio de actividad física por semana
+PA_group,"Categorías de actividad física (<2h, 2–5h, 5–8h, >8h)"
+Social_Media_Usage,Horas promedio de uso de redes sociales por día
+SM_group,"Categorías de uso de redes sociales (≤1h, 1–3h, 3–5h, >5h)"
+Diet_Quality,"Calidad de la dieta (Healthy, Average, Unhealthy)"
+Smoking_Habit,"Hábito de fumar (Never, Former, Current)"
+Alcohol_Consumption,"Nivel de consumo de alcohol (None, Low, Moderate, High, Very High)"
+Medication_Usage,Uso de medicación (Yes/No)
+churn,"Variable objetivo: 1 si tiene condición mental diagnosticada pero sin consultas, 0 en caso contrario"
+work_sleep_ratio,Ratio de horas de trabajo / (horas de sueño * 7 días). Indicador de equilibrio laboral
+lifestyle_risk,"Puntuación de riesgo (suma de hábitos negativos: fumar, alcohol alto, dieta no saludable, baja actividad física)"

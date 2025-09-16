@@ -1,0 +1,1025 @@
+Scenario,Age_group,Gender,Severity_filled,Mental_Health_Condition,level_5,Dropout
+A,18-29,Female,High,No,Mean_dropout,0.0
+A,18-29,Female,High,No,CI_low,0.0
+A,18-29,Female,High,No,CI_high,0.0
+A,18-29,Female,High,No,n,36.0
+A,18-29,Female,High,Yes,Mean_dropout,47.5
+A,18-29,Female,High,Yes,CI_low,31.82706890110311
+A,18-29,Female,High,Yes,CI_high,63.17293109889689
+A,18-29,Female,High,Yes,n,40.0
+A,18-29,Female,Low,No,Mean_dropout,0.0
+A,18-29,Female,Low,No,CI_low,0.0
+A,18-29,Female,Low,No,CI_high,0.0
+A,18-29,Female,Low,No,n,39.0
+A,18-29,Female,Low,Yes,Mean_dropout,53.125
+A,18-29,Female,Low,Yes,CI_low,35.558091616300544
+A,18-29,Female,Low,Yes,CI_high,70.69190838369946
+A,18-29,Female,Low,Yes,n,32.0
+A,18-29,Female,Medium,No,Mean_dropout,0.0
+A,18-29,Female,Medium,No,CI_low,0.0
+A,18-29,Female,Medium,No,CI_high,0.0
+A,18-29,Female,Medium,No,n,37.0
+A,18-29,Female,Medium,Yes,Mean_dropout,53.84615384615385
+A,18-29,Female,Medium,Yes,CI_low,37.99555897301262
+A,18-29,Female,Medium,Yes,CI_high,69.69674871929507
+A,18-29,Female,Medium,Yes,n,39.0
+A,18-29,Female,Unknown,No,Mean_dropout,0.0
+A,18-29,Female,Unknown,No,CI_low,0.0
+A,18-29,Female,Unknown,No,CI_high,0.0
+A,18-29,Female,Unknown,No,n,40.0
+A,18-29,Female,Unknown,Yes,Mean_dropout,50.0
+A,18-29,Female,Unknown,Yes,CI_low,34.6949713349166
+A,18-29,Female,Unknown,Yes,CI_high,65.3050286650834
+A,18-29,Female,Unknown,Yes,n,42.0
+A,18-29,Male,High,No,Mean_dropout,0.0
+A,18-29,Male,High,No,CI_low,0.0
+A,18-29,Male,High,No,CI_high,0.0
+A,18-29,Male,High,No,n,39.0
+A,18-29,Male,High,Yes,Mean_dropout,51.42857142857143
+A,18-29,Male,High,Yes,CI_low,34.62857142857143
+A,18-29,Male,High,Yes,CI_high,68.22857142857143
+A,18-29,Male,High,Yes,n,35.0
+A,18-29,Male,Low,No,Mean_dropout,0.0
+A,18-29,Male,Low,No,CI_low,0.0
+A,18-29,Male,Low,No,CI_high,0.0
+A,18-29,Male,Low,No,n,38.0
+A,18-29,Male,Low,Yes,Mean_dropout,50.0
+A,18-29,Male,Low,Yes,CI_low,33.88889924407499
+A,18-29,Male,Low,Yes,CI_high,66.11110075592501
+A,18-29,Male,Low,Yes,n,38.0
+A,18-29,Male,Medium,No,Mean_dropout,0.0
+A,18-29,Male,Medium,No,CI_low,0.0
+A,18-29,Male,Medium,No,CI_high,0.0
+A,18-29,Male,Medium,No,n,38.0
+A,18-29,Male,Medium,Yes,Mean_dropout,50.0
+A,18-29,Male,Medium,Yes,CI_low,33.88889924407499
+A,18-29,Male,Medium,Yes,CI_high,66.11110075592501
+A,18-29,Male,Medium,Yes,n,38.0
+A,18-29,Male,Unknown,No,Mean_dropout,0.0
+A,18-29,Male,Unknown,No,CI_low,0.0
+A,18-29,Male,Unknown,No,CI_high,0.0
+A,18-29,Male,Unknown,No,n,42.0
+A,18-29,Male,Unknown,Yes,Mean_dropout,50.0
+A,18-29,Male,Unknown,Yes,CI_low,34.6949713349166
+A,18-29,Male,Unknown,Yes,CI_high,65.3050286650834
+A,18-29,Male,Unknown,Yes,n,42.0
+A,18-29,Non-binary,High,No,Mean_dropout,0.0
+A,18-29,Non-binary,High,No,CI_low,0.0
+A,18-29,Non-binary,High,No,CI_high,0.0
+A,18-29,Non-binary,High,No,n,38.0
+A,18-29,Non-binary,High,Yes,Mean_dropout,54.285714285714285
+A,18-29,Non-binary,High,Yes,CI_low,37.54070624995488
+A,18-29,Non-binary,High,Yes,CI_high,71.03072232147369
+A,18-29,Non-binary,High,Yes,n,35.0
+A,18-29,Non-binary,Low,No,Mean_dropout,0.0
+A,18-29,Non-binary,Low,No,CI_low,0.0
+A,18-29,Non-binary,Low,No,CI_high,0.0
+A,18-29,Non-binary,Low,No,n,37.0
+A,18-29,Non-binary,Low,Yes,Mean_dropout,52.77777777777778
+A,18-29,Non-binary,Low,Yes,CI_low,36.23833744807638
+A,18-29,Non-binary,Low,Yes,CI_high,69.31721810747918
+A,18-29,Non-binary,Low,Yes,n,36.0
+A,18-29,Non-binary,Medium,No,Mean_dropout,0.0
+A,18-29,Non-binary,Medium,No,CI_low,0.0
+A,18-29,Non-binary,Medium,No,CI_high,0.0
+A,18-29,Non-binary,Medium,No,n,38.0
+A,18-29,Non-binary,Medium,Yes,Mean_dropout,48.78048780487805
+A,18-29,Non-binary,Medium,Yes,CI_low,33.289936867220234
+A,18-29,Non-binary,Medium,Yes,CI_high,64.27103874253586
+A,18-29,Non-binary,Medium,Yes,n,41.0
+A,18-29,Non-binary,Unknown,No,Mean_dropout,0.0
+A,18-29,Non-binary,Unknown,No,CI_low,0.0
+A,18-29,Non-binary,Unknown,No,CI_high,0.0
+A,18-29,Non-binary,Unknown,No,n,41.0
+A,18-29,Non-binary,Unknown,Yes,Mean_dropout,50.0
+A,18-29,Non-binary,Unknown,Yes,CI_low,34.6949713349166
+A,18-29,Non-binary,Unknown,Yes,CI_high,65.3050286650834
+A,18-29,Non-binary,Unknown,Yes,n,42.0
+A,18-29,Prefer not to say,High,No,Mean_dropout,0.0
+A,18-29,Prefer not to say,High,No,CI_low,0.0
+A,18-29,Prefer not to say,High,No,CI_high,0.0
+A,18-29,Prefer not to say,High,No,n,37.0
+A,18-29,Prefer not to say,High,Yes,Mean_dropout,51.351351351351354
+A,18-29,Prefer not to say,High,Yes,CI_low,35.023984532676764
+A,18-29,Prefer not to say,High,Yes,CI_high,67.67871817002595
+A,18-29,Prefer not to say,High,Yes,n,37.0
+A,18-29,Prefer not to say,Low,No,Mean_dropout,0.0
+A,18-29,Prefer not to say,Low,No,CI_low,0.0
+A,18-29,Prefer not to say,Low,No,CI_high,0.0
+A,18-29,Prefer not to say,Low,No,n,37.0
+A,18-29,Prefer not to say,Low,Yes,Mean_dropout,47.5
+A,18-29,Prefer not to say,Low,Yes,CI_low,31.82706890110311
+A,18-29,Prefer not to say,Low,Yes,CI_high,63.17293109889689
+A,18-29,Prefer not to say,Low,Yes,n,40.0
+A,18-29,Prefer not to say,Medium,No,Mean_dropout,0.0
+A,18-29,Prefer not to say,Medium,No,CI_low,0.0
+A,18-29,Prefer not to say,Medium,No,CI_high,0.0
+A,18-29,Prefer not to say,Medium,No,n,38.0
+A,18-29,Prefer not to say,Medium,Yes,Mean_dropout,51.282051282051285
+A,18-29,Prefer not to say,Medium,Yes,CI_low,35.389578938640966
+A,18-29,Prefer not to say,Medium,Yes,CI_high,67.1745236254616
+A,18-29,Prefer not to say,Medium,Yes,n,39.0
+A,18-29,Prefer not to say,Unknown,No,Mean_dropout,0.0
+A,18-29,Prefer not to say,Unknown,No,CI_low,0.0
+A,18-29,Prefer not to say,Unknown,No,CI_high,0.0
+A,18-29,Prefer not to say,Unknown,No,n,42.0
+A,18-29,Prefer not to say,Unknown,Yes,Mean_dropout,50.0
+A,18-29,Prefer not to say,Unknown,Yes,CI_low,34.6949713349166
+A,18-29,Prefer not to say,Unknown,Yes,CI_high,65.3050286650834
+A,18-29,Prefer not to say,Unknown,Yes,n,42.0
+A,30-44,Female,High,No,Mean_dropout,0.0
+A,30-44,Female,High,No,CI_low,0.0
+A,30-44,Female,High,No,CI_high,0.0
+A,30-44,Female,High,No,n,38.0
+A,30-44,Female,High,Yes,Mean_dropout,48.717948717948715
+A,30-44,Female,High,Yes,CI_low,32.8254763745384
+A,30-44,Female,High,Yes,CI_high,64.61042106135903
+A,30-44,Female,High,Yes,n,39.0
+A,30-44,Female,Low,No,Mean_dropout,0.0
+A,30-44,Female,Low,No,CI_low,0.0
+A,30-44,Female,Low,No,CI_high,0.0
+A,30-44,Female,Low,No,n,41.0
+A,30-44,Female,Low,Yes,Mean_dropout,51.351351351351354
+A,30-44,Female,Low,Yes,CI_low,35.023984532676764
+A,30-44,Female,Low,Yes,CI_high,67.67871817002595
+A,30-44,Female,Low,Yes,n,37.0
+A,30-44,Female,Medium,No,Mean_dropout,0.0
+A,30-44,Female,Medium,No,CI_low,0.0
+A,30-44,Female,Medium,No,CI_high,0.0
+A,30-44,Female,Medium,No,n,37.0
+A,30-44,Female,Medium,Yes,Mean_dropout,50.0
+A,30-44,Female,Medium,Yes,CI_low,33.88889924407499
+A,30-44,Female,Medium,Yes,CI_high,66.11110075592501
+A,30-44,Female,Medium,Yes,n,38.0
+A,30-44,Female,Unknown,No,Mean_dropout,0.0
+A,30-44,Female,Unknown,No,CI_low,0.0
+A,30-44,Female,Unknown,No,CI_high,0.0
+A,30-44,Female,Unknown,No,n,42.0
+A,30-44,Female,Unknown,Yes,Mean_dropout,48.78048780487805
+A,30-44,Female,Unknown,Yes,CI_low,33.289936867220234
+A,30-44,Female,Unknown,Yes,CI_high,64.27103874253586
+A,30-44,Female,Unknown,Yes,n,41.0
+A,30-44,Male,High,No,Mean_dropout,0.0
+A,30-44,Male,High,No,CI_low,0.0
+A,30-44,Male,High,No,CI_high,0.0
+A,30-44,Male,High,No,n,39.0
+A,30-44,Male,High,Yes,Mean_dropout,52.5
+A,30-44,Male,High,Yes,CI_low,36.82706890110311
+A,30-44,Male,High,Yes,CI_high,68.1729310988969
+A,30-44,Male,High,Yes,n,40.0
+A,30-44,Male,Low,No,Mean_dropout,0.0
+A,30-44,Male,Low,No,CI_low,0.0
+A,30-44,Male,Low,No,CI_high,0.0
+A,30-44,Male,Low,No,n,39.0
+A,30-44,Male,Low,Yes,Mean_dropout,47.5
+A,30-44,Male,Low,Yes,CI_low,31.82706890110311
+A,30-44,Male,Low,Yes,CI_high,63.17293109889689
+A,30-44,Male,Low,Yes,n,40.0
+A,30-44,Male,Medium,No,Mean_dropout,0.0
+A,30-44,Male,Medium,No,CI_low,0.0
+A,30-44,Male,Medium,No,CI_high,0.0
+A,30-44,Male,Medium,No,n,36.0
+A,30-44,Male,Medium,Yes,Mean_dropout,51.282051282051285
+A,30-44,Male,Medium,Yes,CI_low,35.389578938640966
+A,30-44,Male,Medium,Yes,CI_high,67.1745236254616
+A,30-44,Male,Medium,Yes,n,39.0
+A,30-44,Male,Unknown,No,Mean_dropout,0.0
+A,30-44,Male,Unknown,No,CI_low,0.0
+A,30-44,Male,Unknown,No,CI_high,0.0
+A,30-44,Male,Unknown,No,n,42.0
+A,30-44,Male,Unknown,Yes,Mean_dropout,50.0
+A,30-44,Male,Unknown,Yes,CI_low,34.6949713349166
+A,30-44,Male,Unknown,Yes,CI_high,65.3050286650834
+A,30-44,Male,Unknown,Yes,n,42.0
+A,30-44,Non-binary,High,No,Mean_dropout,0.0
+A,30-44,Non-binary,High,No,CI_low,0.0
+A,30-44,Non-binary,High,No,CI_high,0.0
+A,30-44,Non-binary,High,No,n,39.0
+A,30-44,Non-binary,High,Yes,Mean_dropout,50.0
+A,30-44,Non-binary,High,Yes,CI_low,34.30744092710146
+A,30-44,Non-binary,High,Yes,CI_high,65.69255907289853
+A,30-44,Non-binary,High,Yes,n,40.0
+A,30-44,Non-binary,Low,No,Mean_dropout,0.0
+A,30-44,Non-binary,Low,No,CI_low,0.0
+A,30-44,Non-binary,Low,No,CI_high,0.0
+A,30-44,Non-binary,Low,No,n,38.0
+A,30-44,Non-binary,Low,Yes,Mean_dropout,51.282051282051285
+A,30-44,Non-binary,Low,Yes,CI_low,35.389578938640966
+A,30-44,Non-binary,Low,Yes,CI_high,67.1745236254616
+A,30-44,Non-binary,Low,Yes,n,39.0
+A,30-44,Non-binary,Medium,No,Mean_dropout,0.0
+A,30-44,Non-binary,Medium,No,CI_low,0.0
+A,30-44,Non-binary,Medium,No,CI_high,0.0
+A,30-44,Non-binary,Medium,No,n,40.0
+A,30-44,Non-binary,Medium,Yes,Mean_dropout,48.78048780487805
+A,30-44,Non-binary,Medium,Yes,CI_low,33.289936867220234
+A,30-44,Non-binary,Medium,Yes,CI_high,64.27103874253586
+A,30-44,Non-binary,Medium,Yes,n,41.0
+A,30-44,Non-binary,Unknown,No,Mean_dropout,0.0
+A,30-44,Non-binary,Unknown,No,CI_low,0.0
+A,30-44,Non-binary,Unknown,No,CI_high,0.0
+A,30-44,Non-binary,Unknown,No,n,42.0
+A,30-44,Non-binary,Unknown,Yes,Mean_dropout,51.21951219512195
+A,30-44,Non-binary,Unknown,Yes,CI_low,35.728961257464135
+A,30-44,Non-binary,Unknown,Yes,CI_high,66.71006313277977
+A,30-44,Non-binary,Unknown,Yes,n,41.0
+A,30-44,Prefer not to say,High,No,Mean_dropout,0.0
+A,30-44,Prefer not to say,High,No,CI_low,0.0
+A,30-44,Prefer not to say,High,No,CI_high,0.0
+A,30-44,Prefer not to say,High,No,n,37.0
+A,30-44,Prefer not to say,High,Yes,Mean_dropout,50.0
+A,30-44,Prefer not to say,High,Yes,CI_low,34.30744092710146
+A,30-44,Prefer not to say,High,Yes,CI_high,65.69255907289853
+A,30-44,Prefer not to say,High,Yes,n,40.0
+A,30-44,Prefer not to say,Low,No,Mean_dropout,0.0
+A,30-44,Prefer not to say,Low,No,CI_low,0.0
+A,30-44,Prefer not to say,Low,No,CI_high,0.0
+A,30-44,Prefer not to say,Low,No,n,39.0
+A,30-44,Prefer not to say,Low,Yes,Mean_dropout,47.36842105263158
+A,30-44,Prefer not to say,Low,Yes,CI_low,31.279650315415722
+A,30-44,Prefer not to say,Low,Yes,CI_high,63.45719178984744
+A,30-44,Prefer not to say,Low,Yes,n,38.0
+A,30-44,Prefer not to say,Medium,No,Mean_dropout,0.0
+A,30-44,Prefer not to say,Medium,No,CI_low,0.0
+A,30-44,Prefer not to say,Medium,No,CI_high,0.0
+A,30-44,Prefer not to say,Medium,No,n,36.0
+A,30-44,Prefer not to say,Medium,Yes,Mean_dropout,52.5
+A,30-44,Prefer not to say,Medium,Yes,CI_low,36.82706890110311
+A,30-44,Prefer not to say,Medium,Yes,CI_high,68.1729310988969
+A,30-44,Prefer not to say,Medium,Yes,n,40.0
+A,30-44,Prefer not to say,Unknown,No,Mean_dropout,0.0
+A,30-44,Prefer not to say,Unknown,No,CI_low,0.0
+A,30-44,Prefer not to say,Unknown,No,CI_high,0.0
+A,30-44,Prefer not to say,Unknown,No,n,42.0
+A,30-44,Prefer not to say,Unknown,Yes,Mean_dropout,50.0
+A,30-44,Prefer not to say,Unknown,Yes,CI_low,34.6949713349166
+A,30-44,Prefer not to say,Unknown,Yes,CI_high,65.3050286650834
+A,30-44,Prefer not to say,Unknown,Yes,n,42.0
+A,45-59,Female,High,No,Mean_dropout,0.0
+A,45-59,Female,High,No,CI_low,0.0
+A,45-59,Female,High,No,CI_high,0.0
+A,45-59,Female,High,No,n,39.0
+A,45-59,Female,High,Yes,Mean_dropout,51.351351351351354
+A,45-59,Female,High,Yes,CI_low,35.023984532676764
+A,45-59,Female,High,Yes,CI_high,67.67871817002595
+A,45-59,Female,High,Yes,n,37.0
+A,45-59,Female,Low,No,Mean_dropout,0.0
+A,45-59,Female,Low,No,CI_low,0.0
+A,45-59,Female,Low,No,CI_high,0.0
+A,45-59,Female,Low,No,n,38.0
+A,45-59,Female,Low,Yes,Mean_dropout,51.282051282051285
+A,45-59,Female,Low,Yes,CI_low,35.389578938640966
+A,45-59,Female,Low,Yes,CI_high,67.1745236254616
+A,45-59,Female,Low,Yes,n,39.0
+A,45-59,Female,Medium,No,Mean_dropout,0.0
+A,45-59,Female,Medium,No,CI_low,0.0
+A,45-59,Female,Medium,No,CI_high,0.0
+A,45-59,Female,Medium,No,n,38.0
+A,45-59,Female,Medium,Yes,Mean_dropout,51.282051282051285
+A,45-59,Female,Medium,Yes,CI_low,35.389578938640966
+A,45-59,Female,Medium,Yes,CI_high,67.1745236254616
+A,45-59,Female,Medium,Yes,n,39.0
+A,45-59,Female,Unknown,No,Mean_dropout,0.0
+A,45-59,Female,Unknown,No,CI_low,0.0
+A,45-59,Female,Unknown,No,CI_high,0.0
+A,45-59,Female,Unknown,No,n,40.0
+A,45-59,Female,Unknown,Yes,Mean_dropout,48.78048780487805
+A,45-59,Female,Unknown,Yes,CI_low,33.289936867220234
+A,45-59,Female,Unknown,Yes,CI_high,64.27103874253586
+A,45-59,Female,Unknown,Yes,n,41.0
+A,45-59,Male,High,No,Mean_dropout,0.0
+A,45-59,Male,High,No,CI_low,0.0
+A,45-59,Male,High,No,CI_high,0.0
+A,45-59,Male,High,No,n,36.0
+A,45-59,Male,High,Yes,Mean_dropout,47.5
+A,45-59,Male,High,Yes,CI_low,31.82706890110311
+A,45-59,Male,High,Yes,CI_high,63.17293109889689
+A,45-59,Male,High,Yes,n,40.0
+A,45-59,Male,Low,No,Mean_dropout,0.0
+A,45-59,Male,Low,No,CI_low,0.0
+A,45-59,Male,Low,No,CI_high,0.0
+A,45-59,Male,Low,No,n,40.0
+A,45-59,Male,Low,Yes,Mean_dropout,52.5
+A,45-59,Male,Low,Yes,CI_low,36.82706890110311
+A,45-59,Male,Low,Yes,CI_high,68.1729310988969
+A,45-59,Male,Low,Yes,n,40.0
+A,45-59,Male,Medium,No,Mean_dropout,0.0
+A,45-59,Male,Medium,No,CI_low,0.0
+A,45-59,Male,Medium,No,CI_high,0.0
+A,45-59,Male,Medium,No,n,39.0
+A,45-59,Male,Medium,Yes,Mean_dropout,45.714285714285715
+A,45-59,Male,Medium,Yes,CI_low,28.96927767852631
+A,45-59,Male,Medium,Yes,CI_high,62.45929375004512
+A,45-59,Male,Medium,Yes,n,35.0
+A,45-59,Male,Unknown,No,Mean_dropout,0.0
+A,45-59,Male,Unknown,No,CI_low,0.0
+A,45-59,Male,Unknown,No,CI_high,0.0
+A,45-59,Male,Unknown,No,n,42.0
+A,45-59,Male,Unknown,Yes,Mean_dropout,50.0
+A,45-59,Male,Unknown,Yes,CI_low,34.6949713349166
+A,45-59,Male,Unknown,Yes,CI_high,65.3050286650834
+A,45-59,Male,Unknown,Yes,n,42.0
+A,45-59,Non-binary,High,No,Mean_dropout,0.0
+A,45-59,Non-binary,High,No,CI_low,0.0
+A,45-59,Non-binary,High,No,CI_high,0.0
+A,45-59,Non-binary,High,No,n,40.0
+A,45-59,Non-binary,High,Yes,Mean_dropout,47.5
+A,45-59,Non-binary,High,Yes,CI_low,31.82706890110311
+A,45-59,Non-binary,High,Yes,CI_high,63.17293109889689
+A,45-59,Non-binary,High,Yes,n,40.0
+A,45-59,Non-binary,Low,No,Mean_dropout,0.0
+A,45-59,Non-binary,Low,No,CI_low,0.0
+A,45-59,Non-binary,Low,No,CI_high,0.0
+A,45-59,Non-binary,Low,No,n,39.0
+A,45-59,Non-binary,Low,Yes,Mean_dropout,50.0
+A,45-59,Non-binary,Low,Yes,CI_low,34.30744092710146
+A,45-59,Non-binary,Low,Yes,CI_high,65.69255907289853
+A,45-59,Non-binary,Low,Yes,n,40.0
+A,45-59,Non-binary,Medium,No,Mean_dropout,0.0
+A,45-59,Non-binary,Medium,No,CI_low,0.0
+A,45-59,Non-binary,Medium,No,CI_high,0.0
+A,45-59,Non-binary,Medium,No,n,39.0
+A,45-59,Non-binary,Medium,Yes,Mean_dropout,47.5
+A,45-59,Non-binary,Medium,Yes,CI_low,31.82706890110311
+A,45-59,Non-binary,Medium,Yes,CI_high,63.17293109889689
+A,45-59,Non-binary,Medium,Yes,n,40.0
+A,45-59,Non-binary,Unknown,No,Mean_dropout,0.0
+A,45-59,Non-binary,Unknown,No,CI_low,0.0
+A,45-59,Non-binary,Unknown,No,CI_high,0.0
+A,45-59,Non-binary,Unknown,No,n,42.0
+A,45-59,Non-binary,Unknown,Yes,Mean_dropout,50.0
+A,45-59,Non-binary,Unknown,Yes,CI_low,34.6949713349166
+A,45-59,Non-binary,Unknown,Yes,CI_high,65.3050286650834
+A,45-59,Non-binary,Unknown,Yes,n,42.0
+A,45-59,Prefer not to say,High,No,Mean_dropout,0.0
+A,45-59,Prefer not to say,High,No,CI_low,0.0
+A,45-59,Prefer not to say,High,No,CI_high,0.0
+A,45-59,Prefer not to say,High,No,n,41.0
+A,45-59,Prefer not to say,High,Yes,Mean_dropout,48.717948717948715
+A,45-59,Prefer not to say,High,Yes,CI_low,32.8254763745384
+A,45-59,Prefer not to say,High,Yes,CI_high,64.61042106135903
+A,45-59,Prefer not to say,High,Yes,n,39.0
+A,45-59,Prefer not to say,Low,No,Mean_dropout,0.0
+A,45-59,Prefer not to say,Low,No,CI_low,0.0
+A,45-59,Prefer not to say,Low,No,CI_high,0.0
+A,45-59,Prefer not to say,Low,No,n,37.0
+A,45-59,Prefer not to say,Low,Yes,Mean_dropout,52.77777777777778
+A,45-59,Prefer not to say,Low,Yes,CI_low,36.23833744807638
+A,45-59,Prefer not to say,Low,Yes,CI_high,69.31721810747918
+A,45-59,Prefer not to say,Low,Yes,n,36.0
+A,45-59,Prefer not to say,Medium,No,Mean_dropout,0.0
+A,45-59,Prefer not to say,Medium,No,CI_low,0.0
+A,45-59,Prefer not to say,Medium,No,CI_high,0.0
+A,45-59,Prefer not to say,Medium,No,n,41.0
+A,45-59,Prefer not to say,Medium,Yes,Mean_dropout,52.63157894736842
+A,45-59,Prefer not to say,Medium,Yes,CI_low,36.54280821015256
+A,45-59,Prefer not to say,Medium,Yes,CI_high,68.72034968458428
+A,45-59,Prefer not to say,Medium,Yes,n,38.0
+A,45-59,Prefer not to say,Unknown,No,Mean_dropout,0.0
+A,45-59,Prefer not to say,Unknown,No,CI_low,0.0
+A,45-59,Prefer not to say,Unknown,No,CI_high,0.0
+A,45-59,Prefer not to say,Unknown,No,n,42.0
+A,45-59,Prefer not to say,Unknown,Yes,Mean_dropout,50.0
+A,45-59,Prefer not to say,Unknown,Yes,CI_low,34.6949713349166
+A,45-59,Prefer not to say,Unknown,Yes,CI_high,65.3050286650834
+A,45-59,Prefer not to say,Unknown,Yes,n,42.0
+A,60+,Female,High,No,Mean_dropout,0.0
+A,60+,Female,High,No,CI_low,0.0
+A,60+,Female,High,No,CI_high,0.0
+A,60+,Female,High,No,n,36.0
+A,60+,Female,High,Yes,Mean_dropout,52.94117647058823
+A,60+,Female,High,Yes,CI_low,35.91110665980055
+A,60+,Female,High,Yes,CI_high,69.97124628137591
+A,60+,Female,High,Yes,n,34.0
+A,60+,Female,Low,No,Mean_dropout,0.0
+A,60+,Female,Low,No,CI_low,0.0
+A,60+,Female,Low,No,CI_high,0.0
+A,60+,Female,Low,No,n,30.0
+A,60+,Female,Low,Yes,Mean_dropout,52.94117647058823
+A,60+,Female,Low,Yes,CI_low,35.91110665980055
+A,60+,Female,Low,Yes,CI_high,69.97124628137591
+A,60+,Female,Low,Yes,n,34.0
+A,60+,Female,Medium,No,Mean_dropout,0.0
+A,60+,Female,Medium,No,CI_low,0.0
+A,60+,Female,Medium,No,CI_high,0.0
+A,60+,Female,Medium,No,n,34.0
+A,60+,Female,Medium,Yes,Mean_dropout,45.714285714285715
+A,60+,Female,Medium,Yes,CI_low,28.96927767852631
+A,60+,Female,Medium,Yes,CI_high,62.45929375004512
+A,60+,Female,Medium,Yes,n,35.0
+A,60+,Female,Unknown,No,Mean_dropout,0.0
+A,60+,Female,Unknown,No,CI_low,0.0
+A,60+,Female,Unknown,No,CI_high,0.0
+A,60+,Female,Unknown,No,n,39.0
+A,60+,Female,Unknown,Yes,Mean_dropout,51.21951219512195
+A,60+,Female,Unknown,Yes,CI_low,35.728961257464135
+A,60+,Female,Unknown,Yes,CI_high,66.71006313277977
+A,60+,Female,Unknown,Yes,n,41.0
+A,60+,Male,High,No,Mean_dropout,0.0
+A,60+,Male,High,No,CI_low,0.0
+A,60+,Male,High,No,CI_high,0.0
+A,60+,Male,High,No,n,34.0
+A,60+,Male,High,Yes,Mean_dropout,51.515151515151516
+A,60+,Male,High,Yes,CI_low,34.19899134258063
+A,60+,Male,High,Yes,CI_high,68.8313116877224
+A,60+,Male,High,Yes,n,33.0
+A,60+,Male,Low,No,Mean_dropout,0.0
+A,60+,Male,Low,No,CI_low,0.0
+A,60+,Male,Low,No,CI_high,0.0
+A,60+,Male,Low,No,n,32.0
+A,60+,Male,Low,Yes,Mean_dropout,50.0
+A,60+,Male,Low,Yes,CI_low,32.94038971634161
+A,60+,Male,Low,Yes,CI_high,67.05961028365839
+A,60+,Male,Low,Yes,n,34.0
+A,60+,Male,Medium,No,Mean_dropout,0.0
+A,60+,Male,Medium,No,CI_low,0.0
+A,60+,Male,Medium,No,CI_high,0.0
+A,60+,Male,Medium,No,n,34.0
+A,60+,Male,Medium,Yes,Mean_dropout,55.88235294117647
+A,60+,Male,Medium,Yes,CI_low,38.941213606695484
+A,60+,Male,Medium,Yes,CI_high,72.82349227565746
+A,60+,Male,Medium,Yes,n,34.0
+A,60+,Male,Unknown,No,Mean_dropout,0.0
+A,60+,Male,Unknown,No,CI_low,0.0
+A,60+,Male,Unknown,No,CI_high,0.0
+A,60+,Male,Unknown,No,n,42.0
+A,60+,Male,Unknown,Yes,Mean_dropout,51.21951219512195
+A,60+,Male,Unknown,Yes,CI_low,35.728961257464135
+A,60+,Male,Unknown,Yes,CI_high,66.71006313277977
+A,60+,Male,Unknown,Yes,n,41.0
+A,60+,Non-binary,High,No,Mean_dropout,0.0
+A,60+,Non-binary,High,No,CI_low,0.0
+A,60+,Non-binary,High,No,CI_high,0.0
+A,60+,Non-binary,High,No,n,33.0
+A,60+,Non-binary,High,Yes,Mean_dropout,54.54545454545455
+A,60+,Non-binary,High,Yes,CI_low,37.29307418507605
+A,60+,Non-binary,High,Yes,CI_high,71.79783490583304
+A,60+,Non-binary,High,Yes,n,33.0
+A,60+,Non-binary,Low,No,Mean_dropout,0.0
+A,60+,Non-binary,Low,No,CI_low,0.0
+A,60+,Non-binary,Low,No,CI_high,0.0
+A,60+,Non-binary,Low,No,n,33.0
+A,60+,Non-binary,Low,Yes,Mean_dropout,48.484848484848484
+A,60+,Non-binary,Low,Yes,CI_low,31.168688312277595
+A,60+,Non-binary,Low,Yes,CI_high,65.80100865741937
+A,60+,Non-binary,Low,Yes,n,33.0
+A,60+,Non-binary,Medium,No,Mean_dropout,0.0
+A,60+,Non-binary,Medium,No,CI_low,0.0
+A,60+,Non-binary,Medium,No,CI_high,0.0
+A,60+,Non-binary,Medium,No,n,31.0
+A,60+,Non-binary,Medium,Yes,Mean_dropout,45.945945945945944
+A,60+,Non-binary,Medium,Yes,CI_low,29.666389967302646
+A,60+,Non-binary,Medium,Yes,CI_high,62.22550192458924
+A,60+,Non-binary,Medium,Yes,n,37.0
+A,60+,Non-binary,Unknown,No,Mean_dropout,0.0
+A,60+,Non-binary,Unknown,No,CI_low,0.0
+A,60+,Non-binary,Unknown,No,CI_high,0.0
+A,60+,Non-binary,Unknown,No,n,39.0
+A,60+,Non-binary,Unknown,Yes,Mean_dropout,50.0
+A,60+,Non-binary,Unknown,Yes,CI_low,33.88889924407499
+A,60+,Non-binary,Unknown,Yes,CI_high,66.11110075592501
+A,60+,Non-binary,Unknown,Yes,n,38.0
+A,60+,Prefer not to say,High,No,Mean_dropout,0.0
+A,60+,Prefer not to say,High,No,CI_low,0.0
+A,60+,Prefer not to say,High,No,CI_high,0.0
+A,60+,Prefer not to say,High,No,n,33.0
+A,60+,Prefer not to say,High,Yes,Mean_dropout,55.55555555555556
+A,60+,Prefer not to say,High,Yes,CI_low,39.09310295337588
+A,60+,Prefer not to say,High,Yes,CI_high,72.01800815773524
+A,60+,Prefer not to say,High,Yes,n,36.0
+A,60+,Prefer not to say,Low,No,Mean_dropout,0.0
+A,60+,Prefer not to say,Low,No,CI_low,0.0
+A,60+,Prefer not to say,Low,No,CI_high,0.0
+A,60+,Prefer not to say,Low,No,n,37.0
+A,60+,Prefer not to say,Low,Yes,Mean_dropout,48.484848484848484
+A,60+,Prefer not to say,Low,Yes,CI_low,31.168688312277595
+A,60+,Prefer not to say,Low,Yes,CI_high,65.80100865741937
+A,60+,Prefer not to say,Low,Yes,n,33.0
+A,60+,Prefer not to say,Medium,No,Mean_dropout,0.0
+A,60+,Prefer not to say,Medium,No,CI_low,0.0
+A,60+,Prefer not to say,Medium,No,CI_high,0.0
+A,60+,Prefer not to say,Medium,No,n,35.0
+A,60+,Prefer not to say,Medium,Yes,Mean_dropout,50.0
+A,60+,Prefer not to say,Medium,Yes,CI_low,32.94038971634161
+A,60+,Prefer not to say,Medium,Yes,CI_high,67.05961028365839
+A,60+,Prefer not to say,Medium,Yes,n,34.0
+A,60+,Prefer not to say,Unknown,No,Mean_dropout,0.0
+A,60+,Prefer not to say,Unknown,No,CI_low,0.0
+A,60+,Prefer not to say,Unknown,No,CI_high,0.0
+A,60+,Prefer not to say,Unknown,No,n,41.0
+A,60+,Prefer not to say,Unknown,Yes,Mean_dropout,50.0
+A,60+,Prefer not to say,Unknown,Yes,CI_low,33.434976607321076
+A,60+,Prefer not to say,Unknown,Yes,CI_high,66.56502339267892
+A,60+,Prefer not to say,Unknown,Yes,n,36.0
+B,18-29,Female,High,No,Mean_dropout,0.09999999999999432
+B,18-29,Female,High,No,CI_low,0.09999999999999432
+B,18-29,Female,High,No,CI_high,0.09999999999999432
+B,18-29,Female,High,No,n,36.0
+B,18-29,Female,High,Yes,Mean_dropout,40.927499999999995
+B,18-29,Female,High,Yes,CI_low,27.4444225836559
+B,18-29,Female,High,Yes,CI_high,54.41057741634409
+B,18-29,Female,High,Yes,n,40.0
+B,18-29,Female,Low,No,Mean_dropout,0.09999999999999432
+B,18-29,Female,Low,No,CI_low,0.09999999999999432
+B,18-29,Female,Low,No,CI_high,0.09999999999999432
+B,18-29,Female,Low,No,n,39.0
+B,18-29,Female,Low,Yes,Mean_dropout,45.515625
+B,18-29,Female,Low,Yes,CI_low,30.466542781055203
+B,18-29,Female,Low,Yes,CI_high,60.5647072189448
+B,18-29,Female,Low,Yes,n,32.0
+B,18-29,Female,Medium,No,Mean_dropout,0.09999999999999432
+B,18-29,Female,Medium,No,CI_low,0.09999999999999432
+B,18-29,Female,Medium,No,CI_high,0.09999999999999432
+B,18-29,Female,Medium,No,n,37.0
+B,18-29,Female,Medium,Yes,Mean_dropout,46.199999999999996
+B,18-29,Female,Medium,Yes,CI_low,32.609175715029664
+B,18-29,Female,Medium,Yes,CI_high,59.79082428497033
+B,18-29,Female,Medium,Yes,n,39.0
+B,18-29,Female,Unknown,No,Mean_dropout,0.09999999999999432
+B,18-29,Female,Unknown,No,CI_low,0.09999999999999432
+B,18-29,Female,Unknown,No,CI_high,0.09999999999999432
+B,18-29,Female,Unknown,No,n,40.0
+B,18-29,Female,Unknown,Yes,Mean_dropout,42.90714285714286
+B,18-29,Female,Unknown,Yes,CI_low,29.785623012841658
+B,18-29,Female,Unknown,Yes,CI_high,56.02866270144406
+B,18-29,Female,Unknown,Yes,n,42.0
+B,18-29,Male,High,No,Mean_dropout,0.09999999999999432
+B,18-29,Male,High,No,CI_low,0.09999999999999432
+B,18-29,Male,High,No,CI_high,0.09999999999999432
+B,18-29,Male,High,No,n,39.0
+B,18-29,Male,High,Yes,Mean_dropout,43.90571428571428
+B,18-29,Male,High,Yes,CI_low,29.576278095336182
+B,18-29,Male,High,Yes,CI_high,58.235150476092386
+B,18-29,Male,High,Yes,n,35.0
+B,18-29,Male,Low,No,Mean_dropout,0.09999999999999432
+B,18-29,Male,Low,No,CI_low,0.09999999999999432
+B,18-29,Male,Low,No,CI_high,0.09999999999999432
+B,18-29,Male,Low,No,n,38.0
+B,18-29,Male,Low,Yes,Mean_dropout,43.076315789473675
+B,18-29,Male,Low,Yes,CI_low,29.20090887254223
+B,18-29,Male,Low,Yes,CI_high,56.95172270640512
+B,18-29,Male,Low,Yes,n,38.0
+B,18-29,Male,Medium,No,Mean_dropout,0.09999999999999432
+B,18-29,Male,Medium,No,CI_low,0.09999999999999432
+B,18-29,Male,Medium,No,CI_high,0.09999999999999432
+B,18-29,Male,Medium,No,n,38.0
+B,18-29,Male,Medium,Yes,Mean_dropout,43.076315789473675
+B,18-29,Male,Medium,Yes,CI_low,29.205832647160896
+B,18-29,Male,Medium,Yes,CI_high,56.946798931786454
+B,18-29,Male,Medium,Yes,n,38.0
+B,18-29,Male,Unknown,No,Mean_dropout,0.09999999999999432
+B,18-29,Male,Unknown,No,CI_low,0.09999999999999432
+B,18-29,Male,Unknown,No,CI_high,0.09999999999999432
+B,18-29,Male,Unknown,No,n,42.0
+B,18-29,Male,Unknown,Yes,Mean_dropout,42.90714285714286
+B,18-29,Male,Unknown,Yes,CI_low,29.785623012841658
+B,18-29,Male,Unknown,Yes,CI_high,56.02866270144406
+B,18-29,Male,Unknown,Yes,n,42.0
+B,18-29,Non-binary,High,No,Mean_dropout,0.09999999999999432
+B,18-29,Non-binary,High,No,CI_low,0.09999999999999432
+B,18-29,Non-binary,High,No,CI_high,0.09999999999999432
+B,18-29,Non-binary,High,No,n,38.0
+B,18-29,Non-binary,High,Yes,Mean_dropout,46.76
+B,18-29,Non-binary,High,Yes,CI_low,32.34157185951419
+B,18-29,Non-binary,High,Yes,CI_high,61.178428140485806
+B,18-29,Non-binary,High,Yes,n,35.0
+B,18-29,Non-binary,Low,No,Mean_dropout,0.09999999999999432
+B,18-29,Non-binary,Low,No,CI_low,0.09999999999999432
+B,18-29,Non-binary,Low,No,CI_high,0.09999999999999432
+B,18-29,Non-binary,Low,No,n,37.0
+B,18-29,Non-binary,Low,Yes,Mean_dropout,45.04722222222222
+B,18-29,Non-binary,Low,Yes,CI_low,30.926724347864067
+B,18-29,Non-binary,Low,Yes,CI_high,59.16772009658037
+B,18-29,Non-binary,Low,Yes,n,36.0
+B,18-29,Non-binary,Medium,No,Mean_dropout,0.09999999999999432
+B,18-29,Non-binary,Medium,No,CI_low,0.09999999999999432
+B,18-29,Non-binary,Medium,No,CI_high,0.09999999999999432
+B,18-29,Non-binary,Medium,No,n,38.0
+B,18-29,Non-binary,Medium,Yes,Mean_dropout,42.00243902439024
+B,18-29,Non-binary,Medium,Yes,CI_low,28.66704100937332
+B,18-29,Non-binary,Medium,Yes,CI_high,55.33783703940716
+B,18-29,Non-binary,Medium,Yes,n,41.0
+B,18-29,Non-binary,Unknown,No,Mean_dropout,0.09999999999999432
+B,18-29,Non-binary,Unknown,No,CI_low,0.09999999999999432
+B,18-29,Non-binary,Unknown,No,CI_high,0.09999999999999432
+B,18-29,Non-binary,Unknown,No,n,41.0
+B,18-29,Non-binary,Unknown,Yes,Mean_dropout,43.14523809523809
+B,18-29,Non-binary,Unknown,Yes,CI_low,29.948321394899942
+B,18-29,Non-binary,Unknown,Yes,CI_high,56.34215479557624
+B,18-29,Non-binary,Unknown,Yes,n,42.0
+B,18-29,Prefer not to say,High,No,Mean_dropout,0.09999999999999432
+B,18-29,Prefer not to say,High,No,CI_low,0.09999999999999432
+B,18-29,Prefer not to say,High,No,CI_high,0.09999999999999432
+B,18-29,Prefer not to say,High,No,n,37.0
+B,18-29,Prefer not to say,High,Yes,Mean_dropout,44.77837837837837
+B,18-29,Prefer not to say,High,Yes,CI_low,30.555890291323646
+B,18-29,Prefer not to say,High,Yes,CI_high,59.00086646543309
+B,18-29,Prefer not to say,High,Yes,n,37.0
+B,18-29,Prefer not to say,Low,No,Mean_dropout,0.09999999999999432
+B,18-29,Prefer not to say,Low,No,CI_low,0.09999999999999432
+B,18-29,Prefer not to say,Low,No,CI_high,0.09999999999999432
+B,18-29,Prefer not to say,Low,No,n,37.0
+B,18-29,Prefer not to say,Low,Yes,Mean_dropout,40.927499999999995
+B,18-29,Prefer not to say,Low,Yes,CI_low,27.430731452287812
+B,18-29,Prefer not to say,Low,Yes,CI_high,54.424268547712174
+B,18-29,Prefer not to say,Low,Yes,n,40.0
+B,18-29,Prefer not to say,Medium,No,Mean_dropout,0.09999999999999432
+B,18-29,Prefer not to say,Medium,No,CI_low,0.09999999999999432
+B,18-29,Prefer not to say,Medium,No,CI_high,0.09999999999999432
+B,18-29,Prefer not to say,Medium,No,n,38.0
+B,18-29,Prefer not to say,Medium,Yes,Mean_dropout,44.023076923076914
+B,18-29,Prefer not to say,Medium,Yes,CI_low,30.381332695963657
+B,18-29,Prefer not to say,Medium,Yes,CI_high,57.66482115019017
+B,18-29,Prefer not to say,Medium,Yes,n,39.0
+B,18-29,Prefer not to say,Unknown,No,Mean_dropout,0.09999999999999432
+B,18-29,Prefer not to say,Unknown,No,CI_low,0.09999999999999432
+B,18-29,Prefer not to say,Unknown,No,CI_high,0.09999999999999432
+B,18-29,Prefer not to say,Unknown,No,n,42.0
+B,18-29,Prefer not to say,Unknown,Yes,Mean_dropout,42.78809523809524
+B,18-29,Prefer not to say,Unknown,Yes,CI_low,29.704588995542515
+B,18-29,Prefer not to say,Unknown,Yes,CI_high,55.87160148064796
+B,18-29,Prefer not to say,Unknown,Yes,n,42.0
+B,30-44,Female,High,No,Mean_dropout,0.09999999999999432
+B,30-44,Female,High,No,CI_low,0.09999999999999432
+B,30-44,Female,High,No,CI_high,0.09999999999999432
+B,30-44,Female,High,No,n,38.0
+B,30-44,Female,High,Yes,Mean_dropout,41.84615384615383
+B,30-44,Female,High,Yes,CI_low,28.217212587576483
+B,30-44,Female,High,Yes,CI_high,55.47509510473118
+B,30-44,Female,High,Yes,n,39.0
+B,30-44,Female,Low,No,Mean_dropout,0.09999999999999432
+B,30-44,Female,Low,No,CI_low,0.09999999999999432
+B,30-44,Female,Low,No,CI_high,0.09999999999999432
+B,30-44,Female,Low,No,n,41.0
+B,30-44,Female,Low,Yes,Mean_dropout,44.23783783783783
+B,30-44,Female,Low,Yes,CI_low,30.18053060818609
+B,30-44,Female,Low,Yes,CI_high,58.29514506748957
+B,30-44,Female,Low,Yes,n,37.0
+B,30-44,Female,Medium,No,Mean_dropout,0.09999999999999432
+B,30-44,Female,Medium,No,CI_low,0.09999999999999432
+B,30-44,Female,Medium,No,CI_high,0.09999999999999432
+B,30-44,Female,Medium,No,n,37.0
+B,30-44,Female,Medium,Yes,Mean_dropout,42.81315789473683
+B,30-44,Female,Medium,Yes,CI_low,29.030721809743564
+B,30-44,Female,Medium,Yes,CI_high,56.5955939797301
+B,30-44,Female,Medium,Yes,n,38.0
+B,30-44,Female,Unknown,No,Mean_dropout,0.09999999999999432
+B,30-44,Female,Unknown,No,CI_low,0.09999999999999432
+B,30-44,Female,Unknown,No,CI_high,0.09999999999999432
+B,30-44,Female,Unknown,No,n,42.0
+B,30-44,Female,Unknown,Yes,Mean_dropout,41.75853658536585
+B,30-44,Female,Unknown,Yes,CI_low,28.50351407666647
+B,30-44,Female,Unknown,Yes,CI_high,55.013559094065236
+B,30-44,Female,Unknown,Yes,n,41.0
+B,30-44,Male,High,No,Mean_dropout,0.09999999999999432
+B,30-44,Male,High,No,CI_low,0.09999999999999432
+B,30-44,Male,High,No,CI_high,0.09999999999999432
+B,30-44,Male,High,No,n,39.0
+B,30-44,Male,High,Yes,Mean_dropout,45.0475
+B,30-44,Male,High,Yes,CI_low,31.60500257865673
+B,30-44,Male,High,Yes,CI_high,58.48999742134327
+B,30-44,Male,High,Yes,n,40.0
+B,30-44,Male,Low,No,Mean_dropout,0.09999999999999432
+B,30-44,Male,Low,No,CI_low,0.09999999999999432
+B,30-44,Male,Low,No,CI_high,0.09999999999999432
+B,30-44,Male,Low,No,n,39.0
+B,30-44,Male,Low,Yes,Mean_dropout,41.177499999999995
+B,30-44,Male,Low,Yes,CI_low,27.60985556412959
+B,30-44,Male,Low,Yes,CI_high,54.7451444358704
+B,30-44,Male,Low,Yes,n,40.0
+B,30-44,Male,Medium,No,Mean_dropout,0.09999999999999432
+B,30-44,Male,Medium,No,CI_low,0.09999999999999432
+B,30-44,Male,Medium,No,CI_high,0.09999999999999432
+B,30-44,Male,Medium,No,n,36.0
+B,30-44,Male,Medium,Yes,Mean_dropout,44.151282051282045
+B,30-44,Male,Medium,Yes,CI_low,30.47782953983407
+B,30-44,Male,Medium,Yes,CI_high,57.82473456273002
+B,30-44,Male,Medium,Yes,n,39.0
+B,30-44,Male,Unknown,No,Mean_dropout,0.09999999999999432
+B,30-44,Male,Unknown,No,CI_low,0.09999999999999432
+B,30-44,Male,Unknown,No,CI_high,0.09999999999999432
+B,30-44,Male,Unknown,No,n,42.0
+B,30-44,Male,Unknown,Yes,Mean_dropout,42.90714285714286
+B,30-44,Male,Unknown,Yes,CI_low,29.781373251522112
+B,30-44,Male,Unknown,Yes,CI_high,56.032912462763605
+B,30-44,Male,Unknown,Yes,n,42.0
+B,30-44,Non-binary,High,No,Mean_dropout,0.09999999999999432
+B,30-44,Non-binary,High,No,CI_low,0.09999999999999432
+B,30-44,Non-binary,High,No,CI_high,0.09999999999999432
+B,30-44,Non-binary,High,No,n,39.0
+B,30-44,Non-binary,High,Yes,Mean_dropout,42.8
+B,30-44,Non-binary,High,Yes,CI_low,29.37147824543518
+B,30-44,Non-binary,High,Yes,CI_high,56.22852175456481
+B,30-44,Non-binary,High,Yes,n,40.0
+B,30-44,Non-binary,Low,No,Mean_dropout,0.09999999999999432
+B,30-44,Non-binary,Low,No,CI_low,0.09999999999999432
+B,30-44,Non-binary,Low,No,CI_high,0.09999999999999432
+B,30-44,Non-binary,Low,No,n,38.0
+B,30-44,Non-binary,Low,Yes,Mean_dropout,44.27948717948717
+B,30-44,Non-binary,Low,Yes,CI_low,30.565067192362733
+B,30-44,Non-binary,Low,Yes,CI_high,57.993907166611606
+B,30-44,Non-binary,Low,Yes,n,39.0
+B,30-44,Non-binary,Medium,No,Mean_dropout,0.09999999999999432
+B,30-44,Non-binary,Medium,No,CI_low,0.09999999999999432
+B,30-44,Non-binary,Medium,No,CI_high,0.09999999999999432
+B,30-44,Non-binary,Medium,No,n,40.0
+B,30-44,Non-binary,Medium,Yes,Mean_dropout,42.36829268292683
+B,30-44,Non-binary,Medium,Yes,CI_low,28.918381111109394
+B,30-44,Non-binary,Medium,Yes,CI_high,55.81820425474426
+B,30-44,Non-binary,Medium,Yes,n,41.0
+B,30-44,Non-binary,Unknown,No,Mean_dropout,0.09999999999999432
+B,30-44,Non-binary,Unknown,No,CI_low,0.09999999999999432
+B,30-44,Non-binary,Unknown,No,CI_high,0.09999999999999432
+B,30-44,Non-binary,Unknown,No,n,42.0
+B,30-44,Non-binary,Unknown,Yes,Mean_dropout,44.4390243902439
+B,30-44,Non-binary,Unknown,Yes,CI_low,31.01046013362841
+B,30-44,Non-binary,Unknown,Yes,CI_high,57.86758864685939
+B,30-44,Non-binary,Unknown,Yes,n,41.0
+B,30-44,Prefer not to say,High,No,Mean_dropout,0.09999999999999432
+B,30-44,Prefer not to say,High,No,CI_low,0.09999999999999432
+B,30-44,Prefer not to say,High,No,CI_high,0.09999999999999432
+B,30-44,Prefer not to say,High,No,n,37.0
+B,30-44,Prefer not to say,High,Yes,Mean_dropout,43.425
+B,30-44,Prefer not to say,High,Yes,CI_low,29.8035355666987
+B,30-44,Prefer not to say,High,Yes,CI_high,57.046464433301296
+B,30-44,Prefer not to say,High,Yes,n,40.0
+B,30-44,Prefer not to say,Low,No,Mean_dropout,0.09999999999999432
+B,30-44,Prefer not to say,Low,No,CI_low,0.09999999999999432
+B,30-44,Prefer not to say,Low,No,CI_high,0.09999999999999432
+B,30-44,Prefer not to say,Low,No,n,39.0
+B,30-44,Prefer not to say,Low,Yes,Mean_dropout,40.9736842105263
+B,30-44,Prefer not to say,Low,Yes,CI_low,27.072150948148547
+B,30-44,Prefer not to say,Low,Yes,CI_high,54.875217472904055
+B,30-44,Prefer not to say,Low,Yes,n,38.0
+B,30-44,Prefer not to say,Medium,No,Mean_dropout,0.09999999999999432
+B,30-44,Prefer not to say,Medium,No,CI_low,0.09999999999999432
+B,30-44,Prefer not to say,Medium,No,CI_high,0.09999999999999432
+B,30-44,Prefer not to say,Medium,No,n,36.0
+B,30-44,Prefer not to say,Medium,Yes,Mean_dropout,45.2975
+B,30-44,Prefer not to say,Medium,Yes,CI_low,31.777684151999473
+B,30-44,Prefer not to say,Medium,Yes,CI_high,58.817315848000526
+B,30-44,Prefer not to say,Medium,Yes,n,40.0
+B,30-44,Prefer not to say,Unknown,No,Mean_dropout,0.09999999999999432
+B,30-44,Prefer not to say,Unknown,No,CI_low,0.09999999999999432
+B,30-44,Prefer not to say,Unknown,No,CI_high,0.09999999999999432
+B,30-44,Prefer not to say,Unknown,No,n,42.0
+B,30-44,Prefer not to say,Unknown,Yes,Mean_dropout,43.14523809523809
+B,30-44,Prefer not to say,Unknown,Yes,CI_low,29.944095905597415
+B,30-44,Prefer not to say,Unknown,Yes,CI_high,56.34638028487877
+B,30-44,Prefer not to say,Unknown,Yes,n,42.0
+B,45-59,Female,High,No,Mean_dropout,0.09999999999999432
+B,45-59,Female,High,No,CI_low,0.09999999999999432
+B,45-59,Female,High,No,CI_high,0.09999999999999432
+B,45-59,Female,High,No,n,39.0
+B,45-59,Female,High,Yes,Mean_dropout,44.508108108108104
+B,45-59,Female,High,Yes,CI_low,30.36769362374927
+B,45-59,Female,High,Yes,CI_high,58.64852259246694
+B,45-59,Female,High,Yes,n,37.0
+B,45-59,Female,Low,No,Mean_dropout,0.09999999999999432
+B,45-59,Female,Low,No,CI_low,0.09999999999999432
+B,45-59,Female,Low,No,CI_high,0.09999999999999432
+B,45-59,Female,Low,No,n,38.0
+B,45-59,Female,Low,Yes,Mean_dropout,44.92051282051281
+B,45-59,Female,Low,Yes,CI_low,31.009512947298198
+B,45-59,Female,Low,Yes,CI_high,58.831512693727426
+B,45-59,Female,Low,Yes,n,39.0
+B,45-59,Female,Medium,No,Mean_dropout,0.09999999999999432
+B,45-59,Female,Medium,No,CI_low,0.09999999999999432
+B,45-59,Female,Medium,No,CI_high,0.09999999999999432
+B,45-59,Female,Medium,No,n,38.0
+B,45-59,Female,Medium,Yes,Mean_dropout,43.89487179487178
+B,45-59,Female,Medium,Yes,CI_low,30.308860568251095
+B,45-59,Female,Medium,Yes,CI_high,57.480883021492474
+B,45-59,Female,Medium,Yes,n,39.0
+B,45-59,Female,Unknown,No,Mean_dropout,0.09999999999999432
+B,45-59,Female,Unknown,No,CI_low,0.09999999999999432
+B,45-59,Female,Unknown,No,CI_high,0.09999999999999432
+B,45-59,Female,Unknown,No,n,40.0
+B,45-59,Female,Unknown,Yes,Mean_dropout,41.75853658536585
+B,45-59,Female,Unknown,Yes,CI_low,28.507932834784985
+B,45-59,Female,Unknown,Yes,CI_high,55.009140335946725
+B,45-59,Female,Unknown,Yes,n,41.0
+B,45-59,Male,High,No,Mean_dropout,0.09999999999999432
+B,45-59,Male,High,No,CI_low,0.09999999999999432
+B,45-59,Male,High,No,CI_high,0.09999999999999432
+B,45-59,Male,High,No,n,36.0
+B,45-59,Male,High,Yes,Mean_dropout,40.927499999999995
+B,45-59,Male,High,Yes,CI_low,27.43529361907828
+B,45-59,Male,High,Yes,CI_high,54.41970638092171
+B,45-59,Male,High,Yes,n,40.0
+B,45-59,Male,Low,No,Mean_dropout,0.09999999999999432
+B,45-59,Male,Low,No,CI_low,0.09999999999999432
+B,45-59,Male,Low,No,CI_high,0.09999999999999432
+B,45-59,Male,Low,No,n,40.0
+B,45-59,Male,Low,Yes,Mean_dropout,45.5475
+B,45-59,Male,Low,Yes,CI_low,31.955786966712743
+B,45-59,Male,Low,Yes,CI_high,59.139213033287255
+B,45-59,Male,Low,Yes,n,40.0
+B,45-59,Male,Medium,No,Mean_dropout,0.09999999999999432
+B,45-59,Male,Medium,No,CI_low,0.09999999999999432
+B,45-59,Male,Medium,No,CI_high,0.09999999999999432
+B,45-59,Male,Medium,No,n,39.0
+B,45-59,Male,Medium,Yes,Mean_dropout,39.19714285714285
+B,45-59,Male,Medium,Yes,CI_low,24.854154082709208
+B,45-59,Male,Medium,Yes,CI_high,53.54013163157649
+B,45-59,Male,Medium,Yes,n,35.0
+B,45-59,Male,Unknown,No,Mean_dropout,0.09999999999999432
+B,45-59,Male,Unknown,No,CI_low,0.09999999999999432
+B,45-59,Male,Unknown,No,CI_high,0.09999999999999432
+B,45-59,Male,Unknown,No,n,42.0
+B,45-59,Male,Unknown,Yes,Mean_dropout,43.02619047619047
+B,45-59,Male,Unknown,Yes,CI_low,29.858393999399052
+B,45-59,Male,Unknown,Yes,CI_high,56.19398695298189
+B,45-59,Male,Unknown,Yes,n,42.0
+B,45-59,Non-binary,High,No,Mean_dropout,0.09999999999999432
+B,45-59,Non-binary,High,No,CI_low,0.09999999999999432
+B,45-59,Non-binary,High,No,CI_high,0.09999999999999432
+B,45-59,Non-binary,High,No,n,40.0
+B,45-59,Non-binary,High,Yes,Mean_dropout,41.052499999999995
+B,45-59,Non-binary,High,Yes,CI_low,27.522465137356107
+B,45-59,Non-binary,High,Yes,CI_high,54.58253486264388
+B,45-59,Non-binary,High,Yes,n,40.0
+B,45-59,Non-binary,Low,No,Mean_dropout,0.09999999999999432
+B,45-59,Non-binary,Low,No,CI_low,0.09999999999999432
+B,45-59,Non-binary,Low,No,CI_high,0.09999999999999432
+B,45-59,Non-binary,Low,No,n,39.0
+B,45-59,Non-binary,Low,Yes,Mean_dropout,43.425
+B,45-59,Non-binary,Low,Yes,CI_low,29.8035355666987
+B,45-59,Non-binary,Low,Yes,CI_high,57.046464433301296
+B,45-59,Non-binary,Low,Yes,n,40.0
+B,45-59,Non-binary,Medium,No,Mean_dropout,0.09999999999999432
+B,45-59,Non-binary,Medium,No,CI_low,0.09999999999999432
+B,45-59,Non-binary,Medium,No,CI_high,0.09999999999999432
+B,45-59,Non-binary,Medium,No,n,39.0
+B,45-59,Non-binary,Medium,Yes,Mean_dropout,40.927499999999995
+B,45-59,Non-binary,Medium,Yes,CI_low,27.426170827076277
+B,45-59,Non-binary,Medium,Yes,CI_high,54.42882917292371
+B,45-59,Non-binary,Medium,Yes,n,40.0
+B,45-59,Non-binary,Unknown,No,Mean_dropout,0.09999999999999432
+B,45-59,Non-binary,Unknown,No,CI_low,0.09999999999999432
+B,45-59,Non-binary,Unknown,No,CI_high,0.09999999999999432
+B,45-59,Non-binary,Unknown,No,n,42.0
+B,45-59,Non-binary,Unknown,Yes,Mean_dropout,43.02619047619047
+B,45-59,Non-binary,Unknown,Yes,CI_low,29.862630192636733
+B,45-59,Non-binary,Unknown,Yes,CI_high,56.189750759744214
+B,45-59,Non-binary,Unknown,Yes,n,42.0
+B,45-59,Prefer not to say,High,No,Mean_dropout,0.09999999999999432
+B,45-59,Prefer not to say,High,No,CI_low,0.09999999999999432
+B,45-59,Prefer not to say,High,No,CI_high,0.09999999999999432
+B,45-59,Prefer not to say,High,No,n,41.0
+B,45-59,Prefer not to say,High,Yes,Mean_dropout,41.84615384615383
+B,45-59,Prefer not to say,High,Yes,CI_low,28.20295533038477
+B,45-59,Prefer not to say,High,Yes,CI_high,55.4893523619229
+B,45-59,Prefer not to say,High,Yes,n,39.0
+B,45-59,Prefer not to say,Low,No,Mean_dropout,0.09999999999999432
+B,45-59,Prefer not to say,Low,No,CI_low,0.09999999999999432
+B,45-59,Prefer not to say,Low,No,CI_high,0.09999999999999432
+B,45-59,Prefer not to say,Low,No,n,37.0
+B,45-59,Prefer not to say,Low,Yes,Mean_dropout,45.74166666666666
+B,45-59,Prefer not to say,Low,Yes,CI_low,31.41163230135158
+B,45-59,Prefer not to say,Low,Yes,CI_high,60.07170103198174
+B,45-59,Prefer not to say,Low,Yes,n,36.0
+B,45-59,Prefer not to say,Medium,No,Mean_dropout,0.09999999999999432
+B,45-59,Prefer not to say,Medium,No,CI_low,0.09999999999999432
+B,45-59,Prefer not to say,Medium,No,CI_high,0.09999999999999432
+B,45-59,Prefer not to say,Medium,No,n,41.0
+B,45-59,Prefer not to say,Medium,Yes,Mean_dropout,45.70526315789473
+B,45-59,Prefer not to say,Medium,Yes,CI_low,31.753200797808923
+B,45-59,Prefer not to say,Medium,Yes,CI_high,59.65732551798053
+B,45-59,Prefer not to say,Medium,Yes,n,38.0
+B,45-59,Prefer not to say,Unknown,No,Mean_dropout,0.09999999999999432
+B,45-59,Prefer not to say,Unknown,No,CI_low,0.09999999999999432
+B,45-59,Prefer not to say,Unknown,No,CI_high,0.09999999999999432
+B,45-59,Prefer not to say,Unknown,No,n,42.0
+B,45-59,Prefer not to say,Unknown,Yes,Mean_dropout,43.02619047619047
+B,45-59,Prefer not to say,Unknown,Yes,CI_low,29.862630192636733
+B,45-59,Prefer not to say,Unknown,Yes,CI_high,56.189750759744214
+B,45-59,Prefer not to say,Unknown,Yes,n,42.0
+B,60+,Female,High,No,Mean_dropout,0.09999999999999432
+B,60+,Female,High,No,CI_low,0.09999999999999432
+B,60+,Female,High,No,CI_high,0.09999999999999432
+B,60+,Female,High,No,n,36.0
+B,60+,Female,High,Yes,Mean_dropout,45.19411764705882
+B,60+,Female,High,Yes,CI_low,30.66191655678868
+B,60+,Female,High,Yes,CI_high,59.72631873732895
+B,60+,Female,High,Yes,n,34.0
+B,60+,Female,Low,No,Mean_dropout,0.09999999999999432
+B,60+,Female,Low,No,CI_low,0.09999999999999432
+B,60+,Female,Low,No,CI_high,0.09999999999999432
+B,60+,Female,Low,No,n,30.0
+B,60+,Female,Low,Yes,Mean_dropout,45.929411764705875
+B,60+,Female,Low,Yes,CI_low,31.158045514604943
+B,60+,Female,Low,Yes,CI_high,60.70077801480681
+B,60+,Female,Low,Yes,n,34.0
+B,60+,Female,Medium,No,Mean_dropout,0.09999999999999432
+B,60+,Female,Medium,No,CI_low,0.09999999999999432
+B,60+,Female,Medium,No,CI_high,0.09999999999999432
+B,60+,Female,Medium,No,n,34.0
+B,60+,Female,Medium,Yes,Mean_dropout,39.054285714285705
+B,60+,Female,Medium,Yes,CI_low,24.754547438770473
+B,60+,Female,Medium,Yes,CI_high,53.354023989800936
+B,60+,Female,Medium,Yes,n,35.0
+B,60+,Female,Unknown,No,Mean_dropout,0.09999999999999432
+B,60+,Female,Unknown,No,CI_low,0.09999999999999432
+B,60+,Female,Unknown,No,CI_high,0.09999999999999432
+B,60+,Female,Unknown,No,n,39.0
+B,60+,Female,Unknown,Yes,Mean_dropout,44.19512195121951
+B,60+,Female,Unknown,Yes,CI_low,30.837712303932904
+B,60+,Female,Unknown,Yes,CI_high,57.55253159850612
+B,60+,Female,Unknown,Yes,n,41.0
+B,60+,Male,High,No,Mean_dropout,0.09999999999999432
+B,60+,Male,High,No,CI_low,0.09999999999999432
+B,60+,Male,High,No,CI_high,0.09999999999999432
+B,60+,Male,High,No,n,34.0
+B,60+,Male,High,Yes,Mean_dropout,44.44242424242424
+B,60+,Male,High,Yes,CI_low,29.515764781603124
+B,60+,Male,High,Yes,CI_high,59.36908370324535
+B,60+,Male,High,Yes,n,33.0
+B,60+,Male,Low,No,Mean_dropout,0.09999999999999432
+B,60+,Male,Low,No,CI_low,0.09999999999999432
+B,60+,Male,Low,No,CI_high,0.09999999999999432
+B,60+,Male,Low,No,n,32.0
+B,60+,Male,Low,Yes,Mean_dropout,43.285294117647055
+B,60+,Male,Low,Yes,CI_low,28.52895424057443
+B,60+,Male,Low,Yes,CI_high,58.04163399471968
+B,60+,Male,Low,Yes,n,34.0
+B,60+,Male,Medium,No,Mean_dropout,0.09999999999999432
+B,60+,Male,Medium,No,CI_low,0.09999999999999432
+B,60+,Male,Medium,No,CI_high,0.09999999999999432
+B,60+,Male,Medium,No,n,34.0
+B,60+,Male,Medium,Yes,Mean_dropout,47.98529411764706
+B,60+,Male,Medium,Yes,CI_low,33.43163756450576
+B,60+,Male,Medium,Yes,CI_high,62.53895067078835
+B,60+,Male,Medium,Yes,n,34.0
+B,60+,Male,Unknown,No,Mean_dropout,0.09999999999999432
+B,60+,Male,Unknown,No,CI_low,0.09999999999999432
+B,60+,Male,Unknown,No,CI_high,0.09999999999999432
+B,60+,Male,Unknown,No,n,42.0
+B,60+,Male,Unknown,Yes,Mean_dropout,43.951219512195124
+B,60+,Male,Unknown,Yes,CI_low,30.67900588404271
+B,60+,Male,Unknown,Yes,CI_high,57.22343314034754
+B,60+,Male,Unknown,Yes,n,41.0
+B,60+,Non-binary,High,No,Mean_dropout,0.09999999999999432
+B,60+,Non-binary,High,No,CI_low,0.09999999999999432
+B,60+,Non-binary,High,No,CI_high,0.09999999999999432
+B,60+,Non-binary,High,No,n,33.0
+B,60+,Non-binary,High,Yes,Mean_dropout,47.015151515151516
+B,60+,Non-binary,High,Yes,CI_low,32.148293011806096
+B,60+,Non-binary,High,Yes,CI_high,61.882010018496935
+B,60+,Non-binary,High,Yes,n,33.0
+B,60+,Non-binary,Low,No,Mean_dropout,0.09999999999999432
+B,60+,Non-binary,Low,No,CI_low,0.09999999999999432
+B,60+,Non-binary,Low,No,CI_high,0.09999999999999432
+B,60+,Non-binary,Low,No,n,33.0
+B,60+,Non-binary,Low,Yes,Mean_dropout,41.26363636363636
+B,60+,Non-binary,Low,Yes,CI_low,26.53131749263698
+B,60+,Non-binary,Low,Yes,CI_high,55.99595523463574
+B,60+,Non-binary,Low,Yes,n,33.0
+B,60+,Non-binary,Medium,No,Mean_dropout,0.09999999999999432
+B,60+,Non-binary,Medium,No,CI_low,0.09999999999999432
+B,60+,Non-binary,Medium,No,CI_high,0.09999999999999432
+B,60+,Non-binary,Medium,No,n,31.0
+B,60+,Non-binary,Medium,Yes,Mean_dropout,39.1081081081081
+B,60+,Non-binary,Medium,Yes,CI_low,25.265913923097862
+B,60+,Non-binary,Medium,Yes,CI_high,52.950302293118334
+B,60+,Non-binary,Medium,Yes,n,37.0
+B,60+,Non-binary,Unknown,No,Mean_dropout,0.09999999999999432
+B,60+,Non-binary,Unknown,No,CI_low,0.09999999999999432
+B,60+,Non-binary,Unknown,No,CI_high,0.09999999999999432
+B,60+,Non-binary,Unknown,No,n,39.0
+B,60+,Non-binary,Unknown,Yes,Mean_dropout,42.681578947368415
+B,60+,Non-binary,Unknown,Yes,CI_low,28.938603025609517
+B,60+,Non-binary,Unknown,Yes,CI_high,56.42455486912731
+B,60+,Non-binary,Unknown,Yes,n,38.0
+B,60+,Prefer not to say,High,No,Mean_dropout,0.09999999999999432
+B,60+,Prefer not to say,High,No,CI_low,0.09999999999999432
+B,60+,Prefer not to say,High,No,CI_high,0.09999999999999432
+B,60+,Prefer not to say,High,No,n,33.0
+B,60+,Prefer not to say,High,Yes,Mean_dropout,47.82222222222222
+B,60+,Prefer not to say,High,Yes,CI_low,33.65082322526838
+B,60+,Prefer not to say,High,Yes,CI_high,61.99362121917606
+B,60+,Prefer not to say,High,Yes,n,36.0
+B,60+,Prefer not to say,Low,No,Mean_dropout,0.09999999999999432
+B,60+,Prefer not to say,Low,No,CI_low,0.09999999999999432
+B,60+,Prefer not to say,Low,No,CI_high,0.09999999999999432
+B,60+,Prefer not to say,Low,No,n,37.0
+B,60+,Prefer not to say,Low,Yes,Mean_dropout,41.86969696969697
+B,60+,Prefer not to say,Low,Yes,CI_low,26.93050243122808
+B,60+,Prefer not to say,Low,Yes,CI_high,56.80889150816586
+B,60+,Prefer not to say,Low,Yes,n,33.0
+B,60+,Prefer not to say,Medium,No,Mean_dropout,0.09999999999999432
+B,60+,Prefer not to say,Medium,No,CI_low,0.09999999999999432
+B,60+,Prefer not to say,Medium,No,CI_high,0.09999999999999432
+B,60+,Prefer not to say,Medium,No,n,35.0
+B,60+,Prefer not to say,Medium,Yes,Mean_dropout,42.99117647058823
+B,60+,Prefer not to say,Medium,Yes,CI_low,28.332289458468285
+B,60+,Prefer not to say,Medium,Yes,CI_high,57.65006348270818
+B,60+,Prefer not to say,Medium,Yes,n,34.0
+B,60+,Prefer not to say,Unknown,No,Mean_dropout,0.09999999999999432
+B,60+,Prefer not to say,Unknown,No,CI_low,0.09999999999999432
+B,60+,Prefer not to say,Unknown,No,CI_high,0.09999999999999432
+B,60+,Prefer not to say,Unknown,No,n,41.0
+B,60+,Prefer not to say,Unknown,Yes,Mean_dropout,42.96666666666666
+B,60+,Prefer not to say,Unknown,Yes,CI_low,28.75284909517815
+B,60+,Prefer not to say,Unknown,Yes,CI_high,57.180484238155174
+B,60+,Prefer not to say,Unknown,Yes,n,36.0

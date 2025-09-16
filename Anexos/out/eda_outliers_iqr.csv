@@ -1,0 +1,6 @@
+variable,n,outliers,outliers_pct
+Age,50000,0,0.0
+Sleep_Hours,50000,0,0.0
+Work_Hours,50000,0,0.0
+Physical_Activity_Hours,50000,0,0.0
+Social_Media_Usage,50000,0,0.0
