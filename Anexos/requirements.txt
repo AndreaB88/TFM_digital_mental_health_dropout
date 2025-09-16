@@ -1,0 +1,18 @@
+# Librerías base
+numpy>=1.24
+pandas>=2.0
+
+# Visualización
+matplotlib>=3.7
+seaborn>=0.12
+
+# Machine Learning y estadística
+scikit-learn>=1.3
+statsmodels>=0.14
+
+# Exportación / manejo de Excel
+openpyxl>=3.1
+
+# Jupyter para reproducibilidad
+jupyter>=1.0
+notebook>=7.0
